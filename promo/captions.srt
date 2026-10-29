@@ -1,0 +1,55 @@
+1
+00:00:00,000 --> 00:00:03,963
+PhysLadder: A Hierarchical, Matched Sim–Real Benchmark for Evaluating GPT-6 Astra in Physical Interaction.
+
+2
+00:00:03,963 --> 00:00:07,333
+Two research questions. Q1: How Well Does GPT-6 Astra Perform in Contact-Rich Manipulation? Q2: Can Simulation Reliably Reflect Its Real-World Performance?
+
+3
+00:00:07,333 --> 00:00:14,333
+L1: Selection & alignment. Establish the right contact. Align before placement. Marker Placement. Success rate across 5 L1 tasks: Simulation 66.7%, Real World 80.0%.
+
+4
+00:00:14,333 --> 00:00:21,333
+L2: Add force regulation. Maintain contact. Regulate force while moving. Whiteboard Wiping. Success rate across 7 L2 tasks: Simulation 47.6%, Real World 47.6%.
+
+5
+00:00:21,333 --> 00:00:28,333
+L3: Add contact reconfiguration. Reconfigure contacts. Coordinate sustained interaction. Nut Removal. Success rate across 4 L3 tasks: 0% in both environments.
+
+6
+00:00:28,333 --> 00:00:31,333
+Success rates decline as interaction demands increase. No L3 task was completed in either environment. Task-weighted success; 3 trials per task per environment.
+
+7
+00:00:31,333 --> 00:00:36,000
+Q2: Can Simulation Reliably Reflect Its Real-World Performance? Physically Matched. Visually Matched. Same Robot Platform. Shared Task Goals & Success Criteria.
+
+8
+00:00:36,000 --> 00:00:39,000
+Visually Matched: Layout & Appearance. Camera Views. Simulation and Real World.
+
+9
+00:00:39,000 --> 00:00:42,000
+Physically Matched: Geometry & Mass. Contact Response. Jelly measured mass: 26.4 g. Marker length: 150 mm. Compare responses under contact.
+
+10
+00:00:42,000 --> 00:00:46,000
+10 / 16 Tasks with Matching Success Counts. The other 6 differ by one successful trial. 3 trials per task per environment. Each tile: Simulation · Real World.
+
+11
+00:00:46,000 --> 00:00:50,000
+Similar Interaction Bottlenecks. Hat Hanging — Alignment. The hat is lifted but not hung.
+
+12
+00:00:50,000 --> 00:00:54,000
+Similar Interaction Bottlenecks. Jelly Handling — Contact–Force Coordination. The gripper closes, but the jelly stays on the surface.
+
+13
+00:00:54,000 --> 00:00:57,500
+For GPT-6 Astra, Matched Simulation Reflects Key Real-World Strengths and Limits. PhysLadder. physladder-benchmark.com
+
+14
+00:00:57,500 --> 00:01:00,000
+How High Can GPT-6 Astra Climb in Contact-Rich Manipulation? PhysLadder: A Hierarchical, Matched Sim–Real Benchmark for Physical Interaction. Paper: arxiv.org/abs/2610.34527. Website: physladder-benchmark.com. Code: github.com/PhysLadder-Benchmark/PhysLadder.

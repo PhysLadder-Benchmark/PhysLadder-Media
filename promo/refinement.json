@@ -1,0 +1,493 @@
+{
+  "duration_seconds": 60,
+  "size": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "story": "Centered title; bump and ride right while two question cards enter from left. Select Q1, ascend closed steps through L1\u2013L3 with level aggregate counters, summarize results, return and select Q2. Type-only physical/visual matching statement, matching evidence, 10/16 task correspondence, two visible paired bottlenecks, model-scoped conclusion, previous approved resource card.",
+  "selected_footage": "Original recorded pixels. Independent chronological phase maps. Marker includes release; wiping stops before homing. Hat and jelly compare visible phases, not proven identical failure mechanisms. Prior historical clips remain illustrative, not newly scored experiments.",
+  "editorial_source": "Frozen paper, page 15 Table 3 and page 16 Section 6.2; user-approved storyboard with latest direction/rate-card/matching/end-card corrections.",
+  "source_pdf_sha256": "d89c131e93852f30d2cd297161c9cc3195cc123d37b772e22217ebe08cf35076",
+  "animated_results": {
+    "screens": [
+      [
+        7.333333333333333,
+        14.333333333333334
+      ],
+      [
+        14.333333333333334,
+        21.333333333333332
+      ],
+      [
+        21.333333333333332,
+        28.333333333333332
+      ]
+    ],
+    "summary": [
+      28.333333333333332,
+      31.333333333333332
+    ],
+    "scope": "Level aggregates, not single-task success; L3 stays zero.",
+    "simulation": [
+      66.7,
+      47.6,
+      0
+    ],
+    "real_world": [
+      80.0,
+      47.6,
+      0
+    ],
+    "identical_success_counts": 10,
+    "remaining_differ_by_one": 6
+  },
+  "end_card": "Previous approved resource card, sampled at 56 seconds and held from 57.5 to 60 seconds. Original logo colors and all three QR codes retained.",
+  "timeline": [
+    {
+      "start": 0,
+      "end": 3.9630841121495326,
+      "text": "PhysLadder: A Hierarchical, Matched Sim\u2013Real Benchmark for Evaluating GPT-6 Astra in Physical Interaction."
+    },
+    {
+      "start": 3.9630841121495326,
+      "end": 7.333333333333333,
+      "text": "Two research questions. Q1: How Well Does GPT-6 Astra Perform in Contact-Rich Manipulation? Q2: Can Simulation Reliably Reflect Its Real-World Performance?"
+    },
+    {
+      "start": 7.333333333333333,
+      "end": 14.333333333333334,
+      "text": "L1: Selection & alignment. Establish the right contact. Align before placement. Marker Placement. Success rate across 5 L1 tasks: Simulation 66.7%, Real World 80.0%."
+    },
+    {
+      "start": 14.333333333333334,
+      "end": 21.333333333333332,
+      "text": "L2: Add force regulation. Maintain contact. Regulate force while moving. Whiteboard Wiping. Success rate across 7 L2 tasks: Simulation 47.6%, Real World 47.6%."
+    },
+    {
+      "start": 21.333333333333332,
+      "end": 28.333333333333332,
+      "text": "L3: Add contact reconfiguration. Reconfigure contacts. Coordinate sustained interaction. Nut Removal. Success rate across 4 L3 tasks: 0% in both environments."
+    },
+    {
+      "start": 28.333333333333332,
+      "end": 31.333333333333332,
+      "text": "Success rates decline as interaction demands increase. No L3 task was completed in either environment. Task-weighted success; 3 trials per task per environment."
+    },
+    {
+      "start": 31.333333333333332,
+      "end": 36,
+      "text": "Q2: Can Simulation Reliably Reflect Its Real-World Performance? Physically Matched. Visually Matched. Same Robot Platform. Shared Task Goals & Success Criteria."
+    },
+    {
+      "start": 36,
+      "end": 39,
+      "text": "Visually Matched: Layout & Appearance. Camera Views. Simulation and Real World."
+    },
+    {
+      "start": 39,
+      "end": 42,
+      "text": "Physically Matched: Geometry & Mass. Contact Response. Jelly measured mass: 26.4 g. Marker length: 150 mm. Compare responses under contact."
+    },
+    {
+      "start": 42,
+      "end": 46,
+      "text": "10 / 16 Tasks with Matching Success Counts. The other 6 differ by one successful trial. 3 trials per task per environment. Each tile: Simulation \u00b7 Real World."
+    },
+    {
+      "start": 46,
+      "end": 50,
+      "text": "Similar Interaction Bottlenecks. Hat Hanging \u2014 Alignment. The hat is lifted but not hung."
+    },
+    {
+      "start": 50,
+      "end": 54,
+      "text": "Similar Interaction Bottlenecks. Jelly Handling \u2014 Contact\u2013Force Coordination. The gripper closes, but the jelly stays on the surface."
+    },
+    {
+      "start": 54,
+      "end": 57.5,
+      "text": "For GPT-6 Astra, Matched Simulation Reflects Key Real-World Strengths and Limits. PhysLadder. physladder-benchmark.com"
+    },
+    {
+      "start": 57.5,
+      "end": 60,
+      "text": "How High Can GPT-6 Astra Climb in Contact-Rich Manipulation? PhysLadder: A Hierarchical, Matched Sim\u2013Real Benchmark for Physical Interaction. Paper: arxiv.org/abs/2610.34527. Website: physladder-benchmark.com. Code: github.com/PhysLadder-Benchmark/PhysLadder."
+    }
+  ],
+  "animation": "R5 anticipates and jumps vertically with the gripper pointing up. The 70%-scale extruded GPT mark is positioned from actual fingertip vertices, taps upward on impact, then falls clear to the right. Compact mount onto the mark; ride exits screen-right while question cards enter from the left. The follow camera and image translation prevent clipping at the render tile boundary. Three solid steps, each with one continuous full-width top. No centre seams, cavities, hinges or opening lids. Same upward-only hops and level results. R5 first looks at the real gripper photo on its right, then turns its wrist toward the viewing camera and holds. Its arm maintains a readable side silhouette rather than rotating its base to face away. Final gripper-axis/view direction dot product >0.999.",
+  "source_gap_avoidance": {
+    "marker_real": "Start at 41 seconds, beyond source gap at 40.3\u201340.333.",
+    "jelly_real": "Start at 72 seconds, beyond source gap at 71.833\u201371.9."
+  },
+  "output_sha256": "a59825d7ff282300fa035e993c44105b3e3f0688ea29984e2404a1f06ad36048",
+  "clips": {
+    "marker-sim": {
+      "path": "docs/media/promo/marker-completion-sim.mp4",
+      "range": [
+        0,
+        8
+      ],
+      "crop": [
+        0,
+        30,
+        720,
+        540
+      ],
+      "phase": [
+        [
+          0,
+          0
+        ],
+        [
+          1.1,
+          2
+        ],
+        [
+          4.7,
+          5.6
+        ],
+        [
+          5.7,
+          7.95
+        ],
+        [
+          7,
+          7.95
+        ]
+      ],
+      "sha256": "52adbfdb528e38a274e279fda1e3507a10bbd3ceae3e3d7c34060fc613c7d033",
+      "decoded_frames": 240,
+      "dark_frames": []
+    },
+    "marker-real": {
+      "path": "docs/media/demos/L1-01-real.mp4",
+      "range": [
+        41,
+        58.5
+      ],
+      "crop": [
+        0,
+        62,
+        720,
+        572
+      ],
+      "phase": [
+        [
+          0,
+          41
+        ],
+        [
+          1.1,
+          47
+        ],
+        [
+          3.7,
+          53.5
+        ],
+        [
+          5.7,
+          58
+        ],
+        [
+          7,
+          58
+        ]
+      ],
+      "sha256": "9cb6f8548c39ce483e17ffc1835b2693b9503115b24760347e1c90c1f1763a35",
+      "decoded_frames": 525,
+      "dark_frames": []
+    },
+    "wiping-sim": {
+      "path": "docs/media/demos/L2-07-sim.mp4",
+      "range": [
+        56,
+        83
+      ],
+      "crop": [
+        0,
+        62,
+        720,
+        572
+      ],
+      "phase": [
+        [
+          0,
+          56
+        ],
+        [
+          2.4,
+          66
+        ],
+        [
+          5.5,
+          80
+        ],
+        [
+          6.5,
+          82.5
+        ],
+        [
+          7,
+          82.5
+        ]
+      ],
+      "sha256": "43b8f1036fbda8822059bab08557a5b4413024bb727238d4b5cd74baff1f2487",
+      "decoded_frames": 810,
+      "dark_frames": []
+    },
+    "wiping-real": {
+      "path": "docs/media/demos/L2-07-real.mp4",
+      "range": [
+        60,
+        91.5
+      ],
+      "crop": [
+        0,
+        62,
+        720,
+        572
+      ],
+      "phase": [
+        [
+          0,
+          60
+        ],
+        [
+          2.4,
+          75
+        ],
+        [
+          5.5,
+          89
+        ],
+        [
+          6.5,
+          91
+        ],
+        [
+          7,
+          91
+        ]
+      ],
+      "sha256": "d81913e87e750a3594432cc37b90ba24c0273da82c431f18a3be3d63e06b4ed6",
+      "decoded_frames": 945,
+      "dark_frames": []
+    },
+    "nut-sim": {
+      "path": "docs/media/demos/L3-02-sim.mp4",
+      "range": [
+        70,
+        78.5
+      ],
+      "crop": [
+        0,
+        62,
+        720,
+        572
+      ],
+      "phase": [
+        [
+          0,
+          70
+        ],
+        [
+          7,
+          78
+        ]
+      ],
+      "sha256": "8d5eba67cab648546001bbac7206da3939381178cafd7c3fe0b78527ff37d8ca",
+      "decoded_frames": 255,
+      "dark_frames": []
+    },
+    "nut-real": {
+      "path": "docs/media/demos/L3-02-real.mp4",
+      "range": [
+        55,
+        63.5
+      ],
+      "crop": [
+        0,
+        62,
+        720,
+        572
+      ],
+      "phase": [
+        [
+          0,
+          55
+        ],
+        [
+          7,
+          63
+        ]
+      ],
+      "sha256": "1e4e2e5ec0a97289d1fcca7c49801880eae056d5e460322ad5aac5937a8ddbb4",
+      "decoded_frames": 255,
+      "dark_frames": []
+    },
+    "hat-sim": {
+      "path": "docs/media/demos/L1-03-sim.mp4",
+      "range": [
+        9.3,
+        11.1
+      ],
+      "crop": [
+        0,
+        62,
+        720,
+        572
+      ],
+      "phase": [
+        [
+          0,
+          9.55
+        ],
+        [
+          3.4,
+          10.65
+        ],
+        [
+          4,
+          10.65
+        ]
+      ],
+      "sha256": "9f0dab8ed7493b8dc25aa2eac2f3b9dc2ce1d8f6070679791ef18bdac0ba7462",
+      "decoded_frames": 53,
+      "dark_frames": []
+    },
+    "hat-real": {
+      "path": "docs/media/demos/L1-03-real.mp4",
+      "range": [
+        16,
+        20.6
+      ],
+      "crop": [
+        0,
+        62,
+        720,
+        572
+      ],
+      "phase": [
+        [
+          0,
+          16
+        ],
+        [
+          3.4,
+          20
+        ],
+        [
+          4,
+          20
+        ]
+      ],
+      "sha256": "16a93c1c430443837acd6f7b0e030d54196174fcd969fea182b0e09687f606b9",
+      "decoded_frames": 138,
+      "dark_frames": []
+    },
+    "jelly-sim": {
+      "path": "docs/media/demos/L2-06-sim.mp4",
+      "range": [
+        21,
+        27.2
+      ],
+      "crop": [
+        0,
+        62,
+        720,
+        572
+      ],
+      "phase": [
+        [
+          0,
+          21
+        ],
+        [
+          3.4,
+          26.5
+        ],
+        [
+          4,
+          26.5
+        ]
+      ],
+      "sha256": "68a7080a1c4e3e50e255480593d77b11b90473a29d0f4206444edbff0c2798bd",
+      "decoded_frames": 186,
+      "dark_frames": []
+    },
+    "jelly-real": {
+      "path": "docs/media/demos/L2-06-real.mp4",
+      "range": [
+        72,
+        77
+      ],
+      "crop": [
+        0,
+        62,
+        720,
+        572
+      ],
+      "phase": [
+        [
+          0,
+          72
+        ],
+        [
+          3.4,
+          76
+        ],
+        [
+          4,
+          76
+        ]
+      ],
+      "sha256": "3833c04c52fc50570ac9131ecde21d6a65bde08d3226f63311cfe68816f598e5",
+      "decoded_frames": 150,
+      "dark_frames": []
+    }
+  },
+  "audio": "Unchanged licensed instrumental stream copied from previous approved film; no narration.",
+  "previous_release": "34b86ff4fd2047cc67fc8fa0426a798cc8b8c2e4",
+  "status": "Source recordings, paper values and user-approved narrative checked",
+  "animation_refinement": {
+    "solid_steps": "Three solid steps, each with one continuous full-width top. No centre seams, cavities, hinges or opening lids. Same upward-only hops and level results.",
+    "imitation": "R5 first looks at the real gripper photo on its right, then turns its wrist toward the viewing camera and holds. Its arm maintains a readable side silhouette rather than rotating its base to face away. Final gripper-axis/view direction dot product >0.999.",
+    "scope": "Current refinement enlarges opening typography and continuously expands the selected Q2 card before revealing Physically Matched / Visually Matched. Previous R5 contact geometry, solid stairs and forward-facing imitation retained. Experimental frames shifted 20 frames earlier at original speed; scenes from 36 s onward retain original timestamps. Research results, audio and end card unchanged."
+  },
+  "reading_flow": {
+    "opening_title_pixels": 146,
+    "opening_subtitle_pixels": 46,
+    "prior_title_pixels": 132,
+    "prior_subtitle_pixels": 37,
+    "q1_start": 7.333333333333333,
+    "q1_result": [
+      28.333333333333332,
+      31.333333333333332
+    ],
+    "q2_return": [
+      31.333333333333332,
+      31.933333333333334
+    ],
+    "q2_expand": [
+      32.15,
+      32.9
+    ],
+    "q2_question_remains_visible": [
+      31.933333333333334,
+      35.52
+    ],
+    "physically_matched_reveal": [
+      33.5,
+      33.95
+    ],
+    "visually_matched_reveal": [
+      33.8,
+      34.25
+    ],
+    "matching_detail_start": 36,
+    "experiments_playback_speed_unchanged": true,
+    "unchanged_from": 36
+  },
+  "reading_refinement": "Opening title grows from 132 to 146 px; subtitle from 37 to 46 px with higher contrast. After Q1 results the same selected Q2 card expands continuously. The question stays visible for about 3.6 s; Physically Matched and Visually Matched appear sequentially inside it. Hold both before transitioning into the unchanged matching details at 36 s. Time is recovered from the post-bump opening and settled Q1 summary; experimental footage is shifted by 20 frames with no speed change."
+}

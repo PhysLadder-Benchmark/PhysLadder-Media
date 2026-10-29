@@ -1,0 +1,18 @@
+[
+  {
+    "file": "wiping-completion-sim.mp4",
+    "source_sha256": "e7c3618cecff47878b50bed670f3b5c4b6029345f6689776e5d1efde89cecccd",
+    "source_start": 202,
+    "source_duration": 16,
+    "additional_speed": 2,
+    "crop_whxy": "704:524:248:482"
+  },
+  {
+    "file": "wiping-completion-real.mp4",
+    "source_sha256": "e942895265a5cd5461379c016c30e7c041fcc5a789cf668625eed16e3572f3cf",
+    "source_start": 102,
+    "source_duration": 16,
+    "additional_speed": 2,
+    "crop_whxy": "936:658:12:390"
+  }
+]

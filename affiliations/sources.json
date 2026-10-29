@@ -1,0 +1,286 @@
+{
+  "source": "Official university identity files where available; remaining author affiliation marks retained from the paper. Original colors preserved. Per-mark provenance below.",
+  "paper_sha256": "46f4b3933402725288b0a319a52187d163373f6d25ab91335ca48aff3f8d8802",
+  "meaning": "Author affiliations; not a statement of institutional endorsement.",
+  "marks": [
+    {
+      "file": "tuojing.webp",
+      "institution": "Tuojing Intelligence",
+      "pdf_page": 1,
+      "pdf_clip_points": [
+        84,
+        211,
+        151,
+        238
+      ]
+    },
+    {
+      "file": "hku.webp",
+      "institution": "The University of Hong Kong",
+      "pdf_page": 1,
+      "pdf_clip_points": [
+        178,
+        208,
+        207,
+        241
+      ]
+    },
+    {
+      "file": "cas-official.webp",
+      "institution": "Chinese Academy of Sciences",
+      "transparent_asset": true,
+      "source_url": "https://www.cas.cn/zj/yk/201410/W020230918362729287934.jpg",
+      "source_sha256": "773f921a2d3dc8eaa114cea3a50cb3b752c630f3e74c16ea87c2dece05883d22",
+      "sha256": "678d9f48d6708110e0a3d05ea8f86b059280734f0c19be6c805721cb07db1e6d",
+      "dimensions": [
+        273,
+        273
+      ],
+      "retrieved": "2026-10-26",
+      "method": "Original blue seal from official academy identity page. Exterior blank margin only made transparent where applicable; internal white details preserved.",
+      "extraction": {},
+      "previous_paper_source": {
+        "file": "cas.webp",
+        "institution": "Chinese Academy of Sciences",
+        "pdf_page": 1,
+        "pdf_clip_points": [
+          252,
+          208,
+          285,
+          241
+        ]
+      }
+    },
+    {
+      "file": "ntu-official.webp",
+      "institution": "Nanyang Technological University",
+      "transparent_asset": true,
+      "source_url": "https://www.ntu.edu.sg/ResourcePackages/NTU/assets/images/NTU_Logo.png",
+      "source_sha256": "45535780334a04c2384d82468ab49c2c8f6d5a77f717246dc42f0c6ff6451503",
+      "sha256": "69111b1f77bbd96d9c67e43d88719302e145a7ffbbc9d02dbc04a82d7ce20b42",
+      "dimensions": [
+        909,
+        1149
+      ],
+      "retrieved": "2026-10-26",
+      "method": "Complete crest component isolated from the official 3006 × 1079 transparent full-color logo to match the existing paper mark. Original crest colors and geometry preserved.",
+      "extraction": {
+        "crop_pixels": [
+          0,
+          0,
+          839,
+          1079
+        ]
+      },
+      "previous_paper_source": {
+        "file": "ntu.webp",
+        "institution": "Nanyang Technological University",
+        "pdf_page": 1,
+        "pdf_clip_points": [
+          331,
+          208,
+          358,
+          241
+        ]
+      }
+    },
+    {
+      "file": "michigan-official.webp",
+      "institution": "University of Michigan, Ann Arbor",
+      "transparent_asset": true,
+      "source_url": "https://brand.umich.edu/wp-content/uploads/2025/02/250027-U-M-Style-Guide-February2025.pdf",
+      "source_sha256": "e454faba31595ae9f16de12bc6ee3c19bf9f748693018763c6448321afb9f8b9",
+      "sha256": "9ecab4f0eb872947e7c61499f4380caaceadf59109fe0ead4fe896cd3672b1d7",
+      "dimensions": [
+        1168,
+        857
+      ],
+      "retrieved": "2026-10-26",
+      "method": "Official vector brand guide, page 10, maize secondary Block M; isolated full mark. Exterior blank margin only made transparent where applicable; internal white details preserved.",
+      "extraction": {
+        "page": 10,
+        "clip_points": [
+          104,
+          469,
+          192,
+          533
+        ]
+      },
+      "previous_paper_source": {
+        "file": "michigan.webp",
+        "institution": "University of Michigan, Ann Arbor",
+        "pdf_page": 1,
+        "pdf_clip_points": [
+          402,
+          211,
+          437,
+          238
+        ]
+      }
+    },
+    {
+      "file": "seu-official.webp",
+      "institution": "Southeast University",
+      "transparent_asset": true,
+      "source_url": "https://www.seu.edu.cn/_upload/article/files/ac/79/a8ea2ec748bc97c5750feb4649af/5abe66cd-b9a4-42a3-a1ac-2a2c77d653af.pdf",
+      "source_sha256": "dcf031a983fb3c8b3b7794e538968c821354b9dd256e7b3e1cbc578854529d28",
+      "sha256": "6ce4150264d7702823e2e241394c053e64c8c44a2c29d081ac7ccf2eced2c475",
+      "dimensions": [
+        1205,
+        1205
+      ],
+      "retrieved": "2026-10-26",
+      "method": "Official visual identity source, full-color seal; isolated full mark. Exterior blank margin only made transparent where applicable; internal white details preserved.",
+      "extraction": {
+        "page": 1,
+        "clip_points": [
+          443,
+          83,
+          594,
+          234
+        ]
+      },
+      "previous_paper_source": {
+        "file": "seu.webp",
+        "institution": "Southeast University",
+        "pdf_page": 1,
+        "pdf_clip_points": [
+          478,
+          208,
+          511,
+          241
+        ]
+      }
+    },
+    {
+      "file": "sapient.webp",
+      "institution": "Sapient Intelligence",
+      "pdf_page": 1,
+      "pdf_clip_points": [
+        104,
+        245,
+        130,
+        276
+      ]
+    },
+    {
+      "file": "simpleai.webp",
+      "institution": "SimpleAI",
+      "pdf_page": 1,
+      "pdf_clip_points": [
+        146,
+        253,
+        215,
+        267
+      ]
+    },
+    {
+      "file": "mbzuai.webp",
+      "institution": "Mohamed bin Zayed University of Artificial Intelligence",
+      "pdf_page": 1,
+      "pdf_clip_points": [
+        225,
+        245,
+        262,
+        277
+      ]
+    },
+    {
+      "file": "stanford-official.webp",
+      "institution": "Stanford University",
+      "transparent_asset": true,
+      "source_url": "https://identity.stanford.edu/wp-content/uploads/sites/3/2020/07/SU-Logo-Art-Sheet-Final.pdf",
+      "source_sha256": "ce842a244f18a16d3446bba64a45d29980a0c2cbb560d3ec8fcdd5275d32235e",
+      "sha256": "4ff2d6a76278754d846b31e5475f31c6489f968a00cf5865ce7d602a138a7863",
+      "dimensions": [
+        775,
+        1130
+      ],
+      "retrieved": "2026-10-26",
+      "method": "Official vector art sheet, page 1, two-color Block S with tree; isolated full mark, no redrawing. Exterior blank margin only made transparent where applicable; internal white details preserved.",
+      "extraction": {
+        "page": 1,
+        "clip_points": [
+          28,
+          140,
+          63,
+          190
+        ]
+      },
+      "previous_paper_source": {
+        "file": "stanford.webp",
+        "institution": "Stanford University",
+        "pdf_page": 1,
+        "pdf_clip_points": [
+          294,
+          244,
+          318,
+          278
+        ]
+      }
+    },
+    {
+      "file": "imperial.webp",
+      "institution": "Imperial College London",
+      "pdf_page": 1,
+      "pdf_clip_points": [
+        331,
+        253,
+        406,
+        267
+      ]
+    },
+    {
+      "file": "tsinghua-official.webp",
+      "institution": "Tsinghua University",
+      "transparent_asset": true,
+      "source_url": "https://vi.tsinghua.edu.cn/__local/8/1C/21/2F02A66E31BF084FE340463BB47_B9A95F73_185BC.jpg",
+      "source_sha256": "90132d030d8a70f9d21375c85d8a0c614d44a6201ab82200067b10aca38986a8",
+      "sha256": "21217d4e0eab2545d9784757fab821e4a1cd358ff1e59f78d4877d4437de44df",
+      "dimensions": [
+        465,
+        464
+      ],
+      "retrieved": "2026-10-26",
+      "method": "Official identity page original purple seal. Exterior blank margin only made transparent where applicable; internal white details preserved.",
+      "extraction": {},
+      "previous_paper_source": {
+        "file": "tsinghua.webp",
+        "institution": "Tsinghua University",
+        "pdf_page": 1,
+        "pdf_clip_points": [
+          416,
+          245,
+          448,
+          276
+        ]
+      }
+    },
+    {
+      "file": "cmu-official.webp",
+      "institution": "Carnegie Mellon University",
+      "transparent_asset": true,
+      "source_url": "https://live-cmu-brand.pantheonsite.io/sites/default/files/cmu-brand-files/inline-images/cmu-wordmark-square-w-on-r%201.png",
+      "source_sha256": "42485e3316cf92b6000af399a8cdc83fc2207da707caeba6173acab3c297ec7d",
+      "sha256": "9940b4d76476250bd9d8397c93c30902b9ac9e5eff26cd80fb46f126a5e81be5",
+      "dimensions": [
+        900,
+        900
+      ],
+      "retrieved": "2026-10-26",
+      "method": "Official 900px red-square university logo; opaque red square and white lettering preserved. Exterior blank margin only made transparent where applicable; internal white details preserved.",
+      "extraction": {},
+      "previous_paper_source": {
+        "file": "cmu.webp",
+        "institution": "Carnegie Mellon University",
+        "pdf_page": 1,
+        "pdf_clip_points": [
+          480,
+          244,
+          510,
+          276
+        ]
+      }
+    }
+  ]
+}

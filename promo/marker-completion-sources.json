@@ -1,0 +1,18 @@
+[
+  {
+    "file": "marker-completion-sim.mp4",
+    "source_sha256": "4ece25fb2990b03a2fbd081aea2ed9bafea81c617282e31bdbd8eb6a021f7405",
+    "source_start": 14.63,
+    "source_duration": 8,
+    "crop_whxy": "1080:804:0:422",
+    "speed_in_promo": 2
+  },
+  {
+    "file": "marker-completion-real.mp4",
+    "source_sha256": "68194c0066ff664a32860bfa5aa01f69a34bbad01a82b3a4bd8bbef854e86e32",
+    "source_start": 86,
+    "source_duration": 8,
+    "crop_whxy": "936:658:12:390",
+    "speed_in_promo": 16.814
+  }
+]

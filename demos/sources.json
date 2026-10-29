@@ -1,0 +1,3036 @@
+{
+  "description": "Selected recorded task demonstrations, edited to show key actions and visible outcomes in under two minutes. Outcome labels describe each selected recording; simulation and real-world selections may differ. Paper aggregates are unchanged. Historical illustrative recordings are not asserted to be the scored episodes. Original camera colors and scenes retained; source timing, final holds and short camera-gap repairs are documented per clip.",
+  "videos": [
+    {
+      "id": "L1-01-real",
+      "task": "L1-01",
+      "domain": "real",
+      "title": "Marker Placement",
+      "outcome": "Success",
+      "source_sha256": "68194c0066ff664a32860bfa5aa01f69a34bbad01a82b3a4bd8bbef854e86e32",
+      "source_duration": 118.0,
+      "camera_crops_xywh": [
+        [
+          12,
+          390,
+          936,
+          658
+        ],
+        [
+          12,
+          104,
+          462,
+          244
+        ],
+        [
+          486,
+          104,
+          462,
+          244
+        ]
+      ],
+      "unavailable_camera_intervals": [
+        [
+          [
+            2.7,
+            2.75
+          ],
+          [
+            9.5,
+            9.55
+          ],
+          [
+            44.5,
+            44.55
+          ],
+          [
+            49.35,
+            49.4
+          ],
+          [
+            67.3,
+            67.35
+          ],
+          [
+            70.0,
+            70.05
+          ],
+          [
+            112.45,
+            112.5
+          ],
+          [
+            117.3,
+            117.35
+          ]
+        ],
+        [
+          [
+            2.7,
+            2.75
+          ],
+          [
+            29.95,
+            30.0
+          ],
+          [
+            44.5,
+            44.55
+          ],
+          [
+            49.35,
+            49.4
+          ],
+          [
+            67.3,
+            67.35
+          ],
+          [
+            70.0,
+            70.05
+          ],
+          [
+            112.45,
+            112.5
+          ],
+          [
+            117.3,
+            117.35
+          ]
+        ],
+        [
+          [
+            2.7,
+            2.75
+          ],
+          [
+            44.5,
+            44.55
+          ],
+          [
+            49.35,
+            49.4
+          ],
+          [
+            67.3,
+            67.35
+          ],
+          [
+            70.0,
+            70.05
+          ],
+          [
+            112.45,
+            112.5
+          ],
+          [
+            117.3,
+            117.35
+          ]
+        ]
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 3,
+          "source_playback_rate": 1,
+          "output_start": 0,
+          "output_end": 3.0,
+          "speed_label": "8.407x"
+        },
+        {
+          "source_start": 30,
+          "source_end": 103,
+          "source_playback_rate": 1,
+          "output_start": 3.0,
+          "output_end": 76.0,
+          "speed_label": "8.407x"
+        },
+        {
+          "source_start": 115.88,
+          "source_end": 117.88,
+          "source_playback_rate": 1,
+          "output_start": 76.0,
+          "output_end": 78.0,
+          "speed_label": "8.407x"
+        }
+      ],
+      "final_hold_seconds": 2,
+      "duration_seconds": 80.0,
+      "output": "L1-01-real.mp4",
+      "sha256": "9cb6f8548c39ce483e17ffc1835b2693b9503115b24760347e1c90c1f1763a35",
+      "bytes": 8472244,
+      "speed_note": "Source header; uniform source compression.",
+      "evidence_review": "Marker remains in the cup after release and gripper withdrawal; final wrist view retained.",
+      "displayed_speed": "Edited & sped up",
+      "presentation_frame_repair": {
+        "id": "L1-01-real",
+        "output_frames_held": [
+          65,
+          420,
+          421,
+          537,
+          968,
+          1032,
+          1033,
+          1859
+        ],
+        "fps": 24,
+        "method": "Omit isolated corrupt composite frames at their original timestamps; constant-rate resampling holds an adjacent recorded frame. No image synthesis or change to experimental records."
+      },
+      "source": {
+        "archive": "真机任务视频_2分钟内.zip",
+        "file": "L1-01_白板笔入杯_成功_pen_insertion_trial10_20261016.mp4",
+        "trial": "pen_insertion_trial10_20261016",
+        "record_category": "前期",
+        "note": "Representative historical recording; not asserted to be one of the three scored paper episodes."
+      }
+    },
+    {
+      "id": "L1-01-sim",
+      "task": "L1-01",
+      "domain": "sim",
+      "title": "Marker Placement",
+      "outcome": "Success",
+      "source_sha256": "d4fb5d9a8d15497af92130530e2ef22caa03ef2cd939ba5d7a854cad78ee106e",
+      "source_duration": 26.33,
+      "camera_crops_xywh": [
+        [
+          0,
+          422,
+          1080,
+          804
+        ],
+        [
+          0,
+          84,
+          540,
+          304
+        ],
+        [
+          540,
+          84,
+          540,
+          304
+        ]
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 19,
+          "source_playback_rate": 1.25,
+          "output_start": 0,
+          "output_end": 15.2
+        },
+        {
+          "source_start": 19,
+          "source_end": 24,
+          "source_playback_rate": 0.75,
+          "output_start": 15.2,
+          "output_end": 21.866666666666667
+        },
+        {
+          "source_start": 24,
+          "source_end": 26.33,
+          "source_playback_rate": 0.5,
+          "output_start": 21.866666666666667,
+          "output_end": 26.526666666666664
+        }
+      ],
+      "final_hold_seconds": 3,
+      "duration_seconds": 29.54,
+      "output": "L1-01-sim.mp4",
+      "sha256": "38593eed8821b9730706bc1e6b3569a91d637149ff88ef24cc0caf308283dbb7",
+      "bytes": 1653453,
+      "evidence_review": "Compared all three recorded trials. First trial has the clearest release: the open gripper separates from the marker and the marker remains supported inside the cup. Keep the exact final recorded frame; slow the insertion and release.",
+      "displayed_speed": "Edited & sped up",
+      "source": {
+        "source_filename": "gpt_run_L1-01_20261016_three_views.mp4",
+        "source_sha256": "d4fb5d9a8d15497af92130530e2ef22caa03ef2cd939ba5d7a854cad78ee106e",
+        "source_document": "https://my.feishu.cn/docx/ZoJldLYM3onU51xWYDvc9qX7nxg",
+        "source_block": "HXMudbiXCoUzpRxrhgScjBxTnwe",
+        "note": "Selected historical recording; not asserted to be one of the three scored paper episodes."
+      },
+      "source_filename": "gpt_run_L1-01_20261016_three_views.mp4",
+      "source_document": "https://my.feishu.cn/docx/ZoJldLYM3onU51xWYDvc9qX7nxg",
+      "source_block": "HXMudbiXCoUzpRxrhgScjBxTnwe",
+      "speed_note": "Rates in edits are relative to the downloaded source, not wall-clock model inference time. All three views share each source time mapping. Slow segments repeat recorded frames; no motion interpolation.",
+      "presentation_frame_repair": {
+        "output_frames_held": [],
+        "fps": 24,
+        "note": "Short whole-camera source gaps hold the preceding recorded frame; duration preserved."
+      }
+    },
+    {
+      "id": "L1-02-real",
+      "task": "L1-02",
+      "domain": "real",
+      "title": "Charger Alignment",
+      "outcome": "Success",
+      "source_sha256": "cf5aceba43019799ddf4ddb72cc3d0f75964ec598e348da845bc4f37da5eb92c",
+      "source_duration": 118.0,
+      "camera_crops_xywh": [
+        [
+          12,
+          390,
+          936,
+          658
+        ],
+        [
+          12,
+          104,
+          462,
+          244
+        ],
+        [
+          486,
+          104,
+          462,
+          244
+        ]
+      ],
+      "unavailable_camera_intervals": [
+        [
+          [
+            3.65,
+            3.7
+          ],
+          [
+            15.9,
+            15.95
+          ],
+          [
+            35.9,
+            35.95
+          ],
+          [
+            52.35,
+            52.4
+          ],
+          [
+            67.2,
+            67.25
+          ],
+          [
+            102.65,
+            102.7
+          ],
+          [
+            106.2,
+            106.25
+          ]
+        ],
+        [
+          [
+            3.65,
+            3.7
+          ],
+          [
+            15.9,
+            15.95
+          ],
+          [
+            35.9,
+            35.95
+          ],
+          [
+            52.35,
+            52.4
+          ],
+          [
+            67.2,
+            67.25
+          ],
+          [
+            102.65,
+            102.7
+          ],
+          [
+            106.2,
+            106.25
+          ]
+        ],
+        [
+          [
+            3.65,
+            3.7
+          ],
+          [
+            15.9,
+            15.95
+          ],
+          [
+            35.9,
+            35.95
+          ],
+          [
+            52.35,
+            52.4
+          ],
+          [
+            67.2,
+            67.25
+          ],
+          [
+            102.65,
+            102.7
+          ],
+          [
+            106.2,
+            106.25
+          ]
+        ]
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 3,
+          "source_playback_rate": 1,
+          "output_start": 0,
+          "output_end": 3.0,
+          "speed_label": "11.55x"
+        },
+        {
+          "source_start": 40,
+          "source_end": 105,
+          "source_playback_rate": 1,
+          "output_start": 3.0,
+          "output_end": 68.0,
+          "speed_label": "11.55x"
+        },
+        {
+          "source_start": 115.88,
+          "source_end": 117.88,
+          "source_playback_rate": 1,
+          "output_start": 68.0,
+          "output_end": 70.0,
+          "speed_label": "11.55x"
+        }
+      ],
+      "final_hold_seconds": 2,
+      "duration_seconds": 72.0,
+      "output": "L1-02-real.mp4",
+      "sha256": "20f6883034b612a2bf93e3d0c4f67b44e69b1aeedcf12d6c950314931ebe385b",
+      "bytes": 8171123,
+      "speed_note": "Source header; long waiting interval omitted before uniform compression.",
+      "evidence_review": "Grasp, transport and near-socket alignment retained; insertion is not required by the paper.",
+      "displayed_speed": "Edited & sped up",
+      "presentation_frame_repair": {
+        "id": "L1-02-real",
+        "output_frames_held": [
+          369,
+          725,
+          1576
+        ],
+        "fps": 24,
+        "method": "Omit isolated corrupt composite frames at their original timestamps; constant-rate resampling holds an adjacent recorded frame. No image synthesis or change to experimental records."
+      },
+      "source": {
+        "archive": "真机任务视频_2分钟内.zip",
+        "file": "L1-02_充电头对准插孔_成功_charger_alignment_trial02_20261016.mp4",
+        "trial": "charger_alignment_trial02_20261016",
+        "record_category": "前期",
+        "note": "Representative historical recording; not asserted to be one of the three scored paper episodes."
+      }
+    },
+    {
+      "id": "L1-02-sim",
+      "task": "L1-02",
+      "domain": "sim",
+      "title": "Charger Alignment",
+      "outcome": "Success",
+      "source_sha256": "e295c4a70aea3cacc1064b8173642b028690d10fe157a5c8891da1133ff69107",
+      "source_duration": 122.83,
+      "camera_crops_xywh": [
+        [
+          0,
+          422,
+          1080,
+          804
+        ],
+        [
+          0,
+          84,
+          540,
+          304
+        ],
+        [
+          540,
+          84,
+          540,
+          304
+        ]
+      ],
+      "unavailable_camera_intervals": [
+        [],
+        [],
+        []
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 110.71,
+          "source_playback_rate": 2,
+          "output_start": 0,
+          "output_end": 55.355,
+          "speed_label": "2x SIM TIME"
+        },
+        {
+          "source_start": 110.71,
+          "source_end": 122.71,
+          "source_playback_rate": 1,
+          "output_start": 55.355,
+          "output_end": 67.35499999999999,
+          "speed_label": "1x SIM TIME"
+        }
+      ],
+      "final_hold_seconds": 2,
+      "duration_seconds": 69.355,
+      "output": "L1-02-sim.mp4",
+      "sha256": "aff2fac805fe87bf506752cee9e27f293aa5a2dbb34212d82d1b8245983dc043",
+      "bytes": 6428565,
+      "speed_note": "Relative to simulated physical time. Model inference waits were already omitted while simulation was paused; not relative to wall-clock trial duration.",
+      "evidence_review": "Grasp, transport and near-socket alignment retained; insertion is not required by the paper.",
+      "displayed_speed": "Edited & sped up",
+      "presentation_frame_repair": null,
+      "source": {
+        "task_id": "L1-02",
+        "domain": "sim",
+        "source_filename": "L1-02_20261018_three_views_completed_annotation.mp4",
+        "source_document": "https://my.feishu.cn/docx/U8AsdPiq2oqRb8xzletcrsXanBh",
+        "source_block": "LSuFdeiCzo5J01xIRsscrOeTnyb",
+        "download_quality": "1080p Feishu stream",
+        "source_sha256": "e295c4a70aea3cacc1064b8173642b028690d10fe157a5c8891da1133ff69107"
+      }
+    },
+    {
+      "id": "L1-03-real",
+      "task": "L1-03",
+      "domain": "real",
+      "title": "Hat Hanging",
+      "outcome": "Failure",
+      "source_sha256": "d9ac5692e801fbab0de13d47a719d376296e03676b91c22c76b61de45fc5bf9b",
+      "source_duration": 90.0,
+      "camera_crops_xywh": [
+        [
+          320,
+          512,
+          640,
+          480
+        ],
+        [
+          0,
+          62,
+          640,
+          360
+        ],
+        [
+          640,
+          62,
+          640,
+          360
+        ]
+      ],
+      "unavailable_camera_intervals": [
+        [
+          [
+            22.85,
+            22.9
+          ],
+          [
+            70.65,
+            70.7
+          ],
+          [
+            81.45,
+            81.5
+          ]
+        ],
+        [
+          [
+            22.85,
+            22.9
+          ],
+          [
+            70.65,
+            70.7
+          ],
+          [
+            81.45,
+            81.5
+          ]
+        ],
+        [
+          [
+            22.85,
+            22.9
+          ],
+          [
+            70.65,
+            70.7
+          ],
+          [
+            81.45,
+            81.5
+          ]
+        ]
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 3,
+          "source_playback_rate": 1,
+          "output_start": 0,
+          "output_end": 3.0,
+          "speed_label": "~49x overall"
+        },
+        {
+          "source_start": 12,
+          "source_end": 83,
+          "source_playback_rate": 1,
+          "output_start": 3.0,
+          "output_end": 74.0,
+          "speed_label": "~49x overall"
+        },
+        {
+          "source_start": 87.88,
+          "source_end": 89.88,
+          "source_playback_rate": 1,
+          "output_start": 74.0,
+          "output_end": 76.0,
+          "speed_label": "~49x overall"
+        }
+      ],
+      "final_hold_seconds": 2,
+      "duration_seconds": 78.0,
+      "output": "L1-03-real.mp4",
+      "sha256": "16a93c1c430443837acd6f7b0e030d54196174fcd969fea182b0e09687f606b9",
+      "bytes": 15014473,
+      "speed_note": "Estimated from burned-in source start/end timestamps, not instantaneous speed.",
+      "evidence_review": "Attempts to hang the hat and the unsupported final state retained.",
+      "displayed_speed": "Edited & sped up",
+      "presentation_frame_repair": {
+        "id": "L1-03-real",
+        "output_frames_held": [
+          333,
+          1480,
+          1739
+        ],
+        "fps": 24,
+        "method": "Omit isolated corrupt composite frames at their original timestamps; constant-rate resampling holds an adjacent recorded frame. No image synthesis or change to experimental records."
+      },
+      "source": {
+        "archive": "真机任务视频_2分钟内.zip",
+        "file": "L1-03_帽子挂架_失败_hat_hanging_trial13_20261011.mp4",
+        "trial": "hat_hanging_trial13_20261011",
+        "record_category": "前期",
+        "note": "Representative historical recording; not asserted to be one of the three scored paper episodes."
+      }
+    },
+    {
+      "id": "L1-03-sim",
+      "task": "L1-03",
+      "domain": "sim",
+      "title": "Hat Hanging",
+      "outcome": "Failure",
+      "source_sha256": "9ab87ff461d70919cc0f650a79182f74510f6b2c6e9f9df8e8dd6a1600cf7def",
+      "source_duration": 134.58,
+      "camera_crops_xywh": [
+        [
+          0,
+          422,
+          1080,
+          804
+        ],
+        [
+          0,
+          84,
+          540,
+          304
+        ],
+        [
+          540,
+          84,
+          540,
+          304
+        ]
+      ],
+      "unavailable_camera_intervals": [
+        [],
+        [],
+        []
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 122.46000000000001,
+          "source_playback_rate": 2,
+          "output_start": 0,
+          "output_end": 61.230000000000004,
+          "speed_label": "2x SIM TIME"
+        },
+        {
+          "source_start": 122.46000000000001,
+          "source_end": 134.46,
+          "source_playback_rate": 1,
+          "output_start": 61.230000000000004,
+          "output_end": 73.23,
+          "speed_label": "1x SIM TIME"
+        }
+      ],
+      "final_hold_seconds": 2,
+      "duration_seconds": 75.23,
+      "output": "L1-03-sim.mp4",
+      "sha256": "9f0dab8ed7493b8dc25aa2eac2f3b9dc2ce1d8f6070679791ef18bdac0ba7462",
+      "bytes": 6565631,
+      "speed_note": "Relative to simulated physical time. Model inference waits were already omitted while simulation was paused; not relative to wall-clock trial duration.",
+      "evidence_review": "Attempts to hang the hat and the unsupported final state retained.",
+      "displayed_speed": "Edited & sped up",
+      "presentation_frame_repair": null,
+      "source": {
+        "task_id": "L1-03",
+        "domain": "sim",
+        "source_filename": "gpt_run_L1-03_20261018_three_views.mp4",
+        "source_document": "https://my.feishu.cn/docx/U8AsdPiq2oqRb8xzletcrsXanBh",
+        "source_block": "QaLWdNYO5oOOH2xM1uOcrrdknyg",
+        "download_quality": "1080p Feishu stream",
+        "source_sha256": "9ab87ff461d70919cc0f650a79182f74510f6b2c6e9f9df8e8dd6a1600cf7def"
+      }
+    },
+    {
+      "id": "L1-04-real",
+      "task": "L1-04",
+      "domain": "real",
+      "title": "Cup Nesting",
+      "outcome": "Success",
+      "source_sha256": "8230bf7d53a365028a14acfd20804bc3f2d4af5ec8594b14568cf111570b3714",
+      "source_duration": 118.0,
+      "camera_crops_xywh": [
+        [
+          16,
+          504,
+          1248,
+          936
+        ],
+        [
+          16,
+          104,
+          616,
+          348
+        ],
+        [
+          648,
+          104,
+          616,
+          348
+        ]
+      ],
+      "unavailable_camera_intervals": [
+        [
+          [
+            44.45,
+            44.5
+          ],
+          [
+            53.4,
+            53.45
+          ],
+          [
+            90.45,
+            90.5
+          ],
+          [
+            91.95,
+            92.0
+          ],
+          [
+            108.35,
+            108.4
+          ],
+          [
+            116.3,
+            116.35
+          ]
+        ],
+        [
+          [
+            44.45,
+            44.5
+          ],
+          [
+            53.4,
+            53.45
+          ],
+          [
+            71.35,
+            71.4
+          ],
+          [
+            90.45,
+            90.5
+          ],
+          [
+            108.35,
+            108.4
+          ]
+        ],
+        [
+          [
+            44.45,
+            44.5
+          ],
+          [
+            53.4,
+            53.45
+          ],
+          [
+            90.45,
+            90.5
+          ],
+          [
+            108.35,
+            108.4
+          ]
+        ]
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 3,
+          "source_playback_rate": 1,
+          "output_start": 0,
+          "output_end": 3.0,
+          "speed_label": "~21.3x"
+        },
+        {
+          "source_start": 10,
+          "source_end": 110,
+          "source_playback_rate": 1,
+          "output_start": 3.0,
+          "output_end": 103.0,
+          "speed_label": "~21.3x"
+        },
+        {
+          "source_start": 115.88,
+          "source_end": 117.88,
+          "source_playback_rate": 1,
+          "output_start": 103.0,
+          "output_end": 105.0,
+          "speed_label": "~21.3x"
+        }
+      ],
+      "final_hold_seconds": 2,
+      "duration_seconds": 107.0,
+      "output": "L1-04-real.mp4",
+      "sha256": "9e8671f2749ac0cf36f1907854aba480ed717508eb0b96ffd88ca77b8bc0af4b",
+      "bytes": 13857239,
+      "speed_note": "Archive manifest: 41.8 minutes compressed to 118 seconds.",
+      "evidence_review": "Both sequential cup placements and final released nesting retained.",
+      "displayed_speed": "Edited & sped up",
+      "presentation_frame_repair": {
+        "id": "L1-04-real",
+        "output_frames_held": [
+          899,
+          1114,
+          1545,
+          2003,
+          2039,
+          2433,
+          2483
+        ],
+        "fps": 24,
+        "method": "Omit isolated corrupt composite frames at their original timestamps; constant-rate resampling holds an adjacent recorded frame. No image synthesis or change to experimental records."
+      },
+      "source": {
+        "archive": "真机任务视频_2分钟内.zip",
+        "file": "L1-04_叠杯子_成功_cups_trial07_20261007_21x.mp4",
+        "trial": "cups_trial07_20261007",
+        "record_category": "前期",
+        "note": "Representative historical recording; not asserted to be one of the three scored paper episodes."
+      }
+    },
+    {
+      "id": "L1-04-sim",
+      "task": "L1-04",
+      "domain": "sim",
+      "title": "Cup Nesting",
+      "outcome": "Success",
+      "source_sha256": "2394f2510cff2289bd0b3a3720f1345311f51a74ed84f58d2601b9fcb146299b",
+      "source_duration": 36.0,
+      "camera_crops_xywh": [
+        [
+          0,
+          422,
+          1080,
+          804
+        ],
+        [
+          0,
+          84,
+          540,
+          304
+        ],
+        [
+          540,
+          84,
+          540,
+          304
+        ]
+      ],
+      "unavailable_camera_intervals": [
+        [],
+        [],
+        []
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 35.88,
+          "source_playback_rate": 1,
+          "output_start": 0,
+          "output_end": 35.88,
+          "speed_label": "1x SIM TIME"
+        }
+      ],
+      "final_hold_seconds": 2,
+      "duration_seconds": 37.88,
+      "output": "L1-04-sim.mp4",
+      "sha256": "add4a3d313db9c88675fb0ba160bd22fbf4532b7d3976eaf72cd80a160d57483",
+      "bytes": 2185480,
+      "speed_note": "Relative to simulated physical time. Model inference waits were already omitted while simulation was paused; not relative to wall-clock trial duration.",
+      "evidence_review": "Both sequential cup placements and final released nesting retained.",
+      "displayed_speed": "Edited & sped up",
+      "presentation_frame_repair": null,
+      "source": {
+        "task_id": "L1-04",
+        "domain": "sim",
+        "source_filename": "gpt_run_L1-04_20261018_three_views.mp4",
+        "source_document": "https://my.feishu.cn/docx/U8AsdPiq2oqRb8xzletcrsXanBh",
+        "source_block": "B2QkdTev9o3aeEx8IkLcsLKnnHe",
+        "download_quality": "1080p Feishu stream",
+        "source_sha256": "2394f2510cff2289bd0b3a3720f1345311f51a74ed84f58d2601b9fcb146299b"
+      }
+    },
+    {
+      "id": "L1-05-real",
+      "task": "L1-05",
+      "domain": "real",
+      "title": "Flower Transfer",
+      "outcome": "Success",
+      "source_sha256": "8c5cbcbc823a77956aab18c6d96a8768b60f8e644a8c7ae5fca06925453330fa",
+      "source_duration": 118.0,
+      "camera_crops_xywh": [
+        [
+          12,
+          390,
+          936,
+          658
+        ],
+        [
+          12,
+          104,
+          462,
+          244
+        ],
+        [
+          486,
+          104,
+          462,
+          244
+        ]
+      ],
+      "unavailable_camera_intervals": [
+        [
+          [
+            38.45,
+            38.5
+          ],
+          [
+            40.5,
+            40.55
+          ],
+          [
+            78.55,
+            78.6
+          ],
+          [
+            93.25,
+            93.3
+          ],
+          [
+            116.55,
+            116.6
+          ]
+        ],
+        [
+          [
+            38.45,
+            38.5
+          ],
+          [
+            40.5,
+            40.55
+          ],
+          [
+            78.55,
+            78.6
+          ],
+          [
+            93.25,
+            93.3
+          ],
+          [
+            116.55,
+            116.6
+          ]
+        ],
+        [
+          [
+            38.45,
+            38.5
+          ],
+          [
+            40.5,
+            40.55
+          ],
+          [
+            78.55,
+            78.6
+          ],
+          [
+            93.25,
+            93.3
+          ],
+          [
+            116.55,
+            116.6
+          ]
+        ]
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 3,
+          "source_playback_rate": 1,
+          "output_start": 0,
+          "output_end": 3.0,
+          "speed_label": "~5.47x overall"
+        },
+        {
+          "source_start": 30,
+          "source_end": 111,
+          "source_playback_rate": 1,
+          "output_start": 3.0,
+          "output_end": 84.0,
+          "speed_label": "~5.47x overall"
+        },
+        {
+          "source_start": 115.88,
+          "source_end": 117.88,
+          "source_playback_rate": 1,
+          "output_start": 84.0,
+          "output_end": 86.0,
+          "speed_label": "~5.47x overall"
+        }
+      ],
+      "final_hold_seconds": 2,
+      "duration_seconds": 88.0,
+      "output": "L1-05-real.mp4",
+      "sha256": "648abd726d24f4747e30d8fb7a8b8ea7fccb89d1ac57e129b5da3f2b2f83bcf8",
+      "bytes": 11071905,
+      "speed_note": "Source header; edited time-lapse, average factor.",
+      "evidence_review": "Flower transfer and post-release state retained; real source is the author-accepted historical trial, not an identified scored paper episode.",
+      "displayed_speed": "Edited & sped up",
+      "presentation_frame_repair": {
+        "id": "L1-05-real",
+        "output_frames_held": [
+          275,
+          324,
+          325,
+          1238,
+          1590,
+          1591,
+          2033
+        ],
+        "fps": 24,
+        "method": "Omit isolated corrupt composite frames at their original timestamps; constant-rate resampling holds an adjacent recorded frame. No image synthesis or change to experimental records."
+      },
+      "source": {
+        "archive": "真机任务视频_2分钟内.zip",
+        "file": "L1-05_插花入杯_成功_flower_transfer_trial02_20261017.mp4",
+        "trial": "flower_transfer_trial02_20261017",
+        "record_category": "前期（用户认可）",
+        "note": "Representative historical recording; not asserted to be one of the three scored paper episodes."
+      }
+    },
+    {
+      "id": "L1-05-sim",
+      "task": "L1-05",
+      "domain": "sim",
+      "title": "Flower Transfer",
+      "outcome": "Success",
+      "source_sha256": "30dbdea8b528399525bc81cb3b4548d9cf69970cc4fb4eaeae51121e5307eb90",
+      "source_duration": 82.42,
+      "camera_crops_xywh": [
+        [
+          0,
+          422,
+          1080,
+          804
+        ],
+        [
+          0,
+          84,
+          540,
+          304
+        ],
+        [
+          540,
+          84,
+          540,
+          304
+        ]
+      ],
+      "unavailable_camera_intervals": [
+        [],
+        [],
+        []
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 82.3,
+          "source_playback_rate": 1,
+          "output_start": 0,
+          "output_end": 82.3,
+          "speed_label": "1x SIM TIME"
+        }
+      ],
+      "final_hold_seconds": 2,
+      "duration_seconds": 84.3,
+      "output": "L1-05-sim.mp4",
+      "sha256": "56afc799766f41a294f385eb2b1c031b7759b9102ffa2e20cfb07f1ec8656d59",
+      "bytes": 3589539,
+      "speed_note": "Relative to simulated physical time. Model inference waits were already omitted while simulation was paused; not relative to wall-clock trial duration.",
+      "evidence_review": "Flower transfer and post-release state retained; real source is the author-accepted historical trial, not an identified scored paper episode.",
+      "displayed_speed": "Edited & sped up",
+      "presentation_frame_repair": null,
+      "source": {
+        "task_id": "L1-05",
+        "domain": "sim",
+        "source_filename": "gpt_run_L1-05_20261018_1250_three_views.mp4",
+        "source_document": "https://my.feishu.cn/docx/U8AsdPiq2oqRb8xzletcrsXanBh",
+        "source_block": "CWQ6dJNn7o1pC8xDxeMcDzienwd",
+        "download_quality": "1080p Feishu stream",
+        "source_sha256": "30dbdea8b528399525bc81cb3b4548d9cf69970cc4fb4eaeae51121e5307eb90"
+      }
+    },
+    {
+      "id": "L2-01-real",
+      "task": "L2-01",
+      "domain": "real",
+      "title": "Marker Cap Removal",
+      "outcome": "Failure",
+      "source_sha256": "12ff69e0404aa4ff7e21d20bc2b3a0ece68b5806099e25a8bc0f379c8b904a3b",
+      "source_duration": 90.0,
+      "camera_crops_xywh": [
+        [
+          248,
+          482,
+          704,
+          524
+        ],
+        [
+          20,
+          118,
+          560,
+          314
+        ],
+        [
+          620,
+          118,
+          560,
+          314
+        ]
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 90,
+          "source_playback_rate": 1,
+          "output_start": 0,
+          "output_end": 90.0
+        }
+      ],
+      "final_hold_seconds": 3,
+      "duration_seconds": 93.0,
+      "output": "L2-01-real.mp4",
+      "sha256": "f7c9811668ca801129a08259dcbfd8e09e3f3c587cecf013b2ef4ca433742b9f",
+      "bytes": 8264060,
+      "evidence_review": "Use real_L2-01, the sixth trial and continuation, with the marker starting on the blue support box. Replaces trial05, whose beginning has the marker on the bare table. Cap remains attached. Source header identifies an earlier manual reset; this is illustrative footage, not a new scored episode.",
+      "displayed_speed": "Edited & sped up",
+      "source": {
+        "source_filename": "real_L2-01.mp4",
+        "source_sha256": "12ff69e0404aa4ff7e21d20bc2b3a0ece68b5806099e25a8bc0f379c8b904a3b",
+        "source_document": "https://my.feishu.cn/docx/ZoJldLYM3onU51xWYDvc9qX7nxg",
+        "source_block": "HhBedU9kIo0R7GxS2qHcbNslnZg",
+        "note": "Selected historical recording; not asserted to be one of the three scored paper episodes."
+      },
+      "source_filename": "real_L2-01.mp4",
+      "source_document": "https://my.feishu.cn/docx/ZoJldLYM3onU51xWYDvc9qX7nxg",
+      "source_block": "HhBedU9kIo0R7GxS2qHcbNslnZg",
+      "speed_note": "Rates in edits are relative to the downloaded source, not wall-clock model inference time. All three views share each source time mapping. Slow segments repeat recorded frames; no motion interpolation.",
+      "presentation_frame_repair": {
+        "output_frames_held": [
+          87,
+          176,
+          273,
+          590,
+          1905
+        ],
+        "fps": 24,
+        "note": "Short whole-camera source gaps hold the preceding recorded frame; duration preserved."
+      }
+    },
+    {
+      "id": "L2-01-sim",
+      "task": "L2-01",
+      "domain": "sim",
+      "title": "Marker Cap Removal",
+      "outcome": "Failure",
+      "source_sha256": "1cd44e856df1782779b7747f474b1cd43bf64f7ad01d688684c708c24d5c206f",
+      "source_duration": 173.25,
+      "camera_crops_xywh": [
+        [
+          248,
+          482,
+          704,
+          524
+        ],
+        [
+          20,
+          118,
+          560,
+          314
+        ],
+        [
+          620,
+          118,
+          560,
+          314
+        ]
+      ],
+      "unavailable_camera_intervals": [
+        [],
+        [],
+        []
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 161.13,
+          "source_playback_rate": 2,
+          "output_start": 0,
+          "output_end": 80.565,
+          "speed_label": "2x SIM TIME"
+        },
+        {
+          "source_start": 161.13,
+          "source_end": 173.13,
+          "source_playback_rate": 1,
+          "output_start": 80.565,
+          "output_end": 92.565,
+          "speed_label": "1x SIM TIME"
+        }
+      ],
+      "final_hold_seconds": 2,
+      "duration_seconds": 94.565,
+      "output": "L2-01-sim.mp4",
+      "sha256": "88ffad10e31f43760143b231ee7f51f549eb19f5e0e8e7add8838af4c26a6182",
+      "bytes": 6206919,
+      "speed_note": "Relative to simulated physical time. Model inference waits were already omitted while simulation was paused; not relative to wall-clock trial duration.",
+      "evidence_review": "The marker is grasped and lifted but its cap remains attached.",
+      "displayed_speed": "Edited & sped up",
+      "presentation_frame_repair": null,
+      "source": {
+        "task_id": "L2-01",
+        "domain": "sim",
+        "source_filename": "gpt_run_L2-01_second_20261021.mp4",
+        "source_document": "https://my.feishu.cn/docx/U8AsdPiq2oqRb8xzletcrsXanBh",
+        "source_block": "HSaEdgEE6oNFHdxX1UvcjcC9nq3",
+        "download_quality": "1080p Feishu stream",
+        "source_sha256": "1cd44e856df1782779b7747f474b1cd43bf64f7ad01d688684c708c24d5c206f"
+      }
+    },
+    {
+      "id": "L2-02-real",
+      "task": "L2-02",
+      "domain": "real",
+      "title": "Book Pulling",
+      "outcome": "Failure",
+      "source_sha256": "f9d99d1d80f554c430cab4a1bd07f5ef540e3eead7d3224228ddbef33980fd7a",
+      "source_duration": 90.0,
+      "camera_crops_xywh": [
+        [
+          240,
+          362,
+          800,
+          566
+        ],
+        [
+          0,
+          0,
+          638,
+          340
+        ],
+        [
+          642,
+          0,
+          638,
+          340
+        ]
+      ],
+      "unavailable_camera_intervals": [
+        [],
+        [],
+        []
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 3,
+          "source_playback_rate": 1,
+          "output_start": 0,
+          "output_end": 3.0,
+          "speed_label": "~46.9x overall"
+        },
+        {
+          "source_start": 10,
+          "source_end": 85,
+          "source_playback_rate": 1,
+          "output_start": 3.0,
+          "output_end": 78.0,
+          "speed_label": "~46.9x overall"
+        },
+        {
+          "source_start": 87.88,
+          "source_end": 89.88,
+          "source_playback_rate": 1,
+          "output_start": 78.0,
+          "output_end": 80.0,
+          "speed_label": "~46.9x overall"
+        }
+      ],
+      "final_hold_seconds": 2,
+      "duration_seconds": 82.0,
+      "output": "L2-02-real.mp4",
+      "sha256": "f61a2572f1fcf197fe0501e4dd81ae4b84e12fd83b0cdaeae9e0f5dc0ca42c34",
+      "bytes": 9280278,
+      "speed_note": "Estimated from burned-in source start/end timestamps.",
+      "evidence_review": "Selected simulation changed to the third, failed v3 trial; no required middle-book extraction is completed.",
+      "displayed_speed": "Edited & sped up",
+      "presentation_frame_repair": null,
+      "source": {
+        "archive": "真机任务视频_2分钟内.zip",
+        "file": "L2-02_抽取中间书本_失败_withskills_book_extraction_20261020_135443.mp4",
+        "trial": "withskills_book_extraction_20261020_135443",
+        "record_category": "Released",
+        "note": "Representative historical recording; not asserted to be one of the three scored paper episodes."
+      }
+    },
+    {
+      "id": "L2-02-sim",
+      "task": "L2-02",
+      "domain": "sim",
+      "title": "Book Pulling",
+      "outcome": "Success",
+      "source_sha256": "94aff3f75f97457eb28c751ccc23c53f2ddaa2d39df9cdeee147a4b86015f8cf",
+      "source_duration": 154.75,
+      "camera_crops_xywh": [
+        [
+          248,
+          482,
+          704,
+          524
+        ],
+        [
+          20,
+          118,
+          560,
+          314
+        ],
+        [
+          620,
+          118,
+          560,
+          314
+        ]
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 115,
+          "source_playback_rate": 2.5,
+          "output_start": 0,
+          "output_end": 46.0
+        },
+        {
+          "source_start": 115,
+          "source_end": 154.75,
+          "source_playback_rate": 1,
+          "output_start": 46.0,
+          "output_end": 85.75
+        }
+      ],
+      "final_hold_seconds": 3,
+      "duration_seconds": 88.75,
+      "output": "L2-02-sim.mp4",
+      "sha256": "9f7ac54d91723d0f7149301da5095858af00dfad73e06874b39437f84afd7f1d",
+      "bytes": 6850196,
+      "evidence_review": "Select successful second simulation trial, whose middle book is pulled out while the upper book remains supported. Real selected recording remains Failure. Latest user request supersedes the earlier matched-outcome selection; paper aggregate counts remain 1/3 sim and 0/3 real.",
+      "displayed_speed": "Edited & sped up",
+      "source": {
+        "source_filename": "gpt_run_L2-02_second_20261018.mp4",
+        "source_sha256": "94aff3f75f97457eb28c751ccc23c53f2ddaa2d39df9cdeee147a4b86015f8cf",
+        "source_document": "https://my.feishu.cn/docx/ZoJldLYM3onU51xWYDvc9qX7nxg",
+        "source_block": "UvfQdloBooPByrxBW6ocoFoPnVf",
+        "note": "Selected historical recording; not asserted to be one of the three scored paper episodes."
+      },
+      "source_filename": "gpt_run_L2-02_second_20261018.mp4",
+      "source_document": "https://my.feishu.cn/docx/ZoJldLYM3onU51xWYDvc9qX7nxg",
+      "source_block": "UvfQdloBooPByrxBW6ocoFoPnVf",
+      "speed_note": "Rates in edits are relative to the downloaded source, not wall-clock model inference time. All three views share each source time mapping. Slow segments repeat recorded frames; no motion interpolation.",
+      "presentation_frame_repair": {
+        "output_frames_held": [],
+        "fps": 24,
+        "note": "Short whole-camera source gaps hold the preceding recorded frame; duration preserved."
+      }
+    },
+    {
+      "id": "L2-03-real",
+      "task": "L2-03",
+      "domain": "real",
+      "title": "Marble Pouring",
+      "outcome": "Success",
+      "source_sha256": "466c726fa97fdaf6df8b3859cb8a7893374dfd37be9fe634eb0e51c274afd373",
+      "source_duration": 90.0,
+      "camera_crops_xywh": [
+        [
+          320,
+          512,
+          640,
+          480
+        ],
+        [
+          0,
+          62,
+          640,
+          360
+        ],
+        [
+          640,
+          62,
+          640,
+          360
+        ]
+      ],
+      "unavailable_camera_intervals": [
+        [
+          [
+            10.25,
+            10.3
+          ],
+          [
+            23.0,
+            23.05
+          ],
+          [
+            33.65,
+            33.7
+          ],
+          [
+            44.3,
+            44.35
+          ],
+          [
+            55.15,
+            55.2
+          ],
+          [
+            64.8,
+            64.85
+          ]
+        ],
+        [
+          [
+            10.25,
+            10.3
+          ],
+          [
+            23.0,
+            23.05
+          ],
+          [
+            33.65,
+            33.7
+          ],
+          [
+            44.3,
+            44.35
+          ],
+          [
+            55.15,
+            55.2
+          ],
+          [
+            64.8,
+            64.85
+          ]
+        ],
+        [
+          [
+            10.25,
+            10.3
+          ],
+          [
+            23.0,
+            23.05
+          ],
+          [
+            33.65,
+            33.7
+          ],
+          [
+            44.3,
+            44.35
+          ],
+          [
+            55.15,
+            55.2
+          ],
+          [
+            64.8,
+            64.85
+          ]
+        ]
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 3,
+          "source_playback_rate": 1,
+          "output_start": 0,
+          "output_end": 3.0,
+          "speed_label": "~17.9x overall"
+        },
+        {
+          "source_start": 28,
+          "source_end": 85,
+          "source_playback_rate": 1,
+          "output_start": 3.0,
+          "output_end": 60.0,
+          "speed_label": "~17.9x overall"
+        },
+        {
+          "source_start": 87.88,
+          "source_end": 89.88,
+          "source_playback_rate": 1,
+          "output_start": 60.0,
+          "output_end": 62.0,
+          "speed_label": "~17.9x overall"
+        }
+      ],
+      "final_hold_seconds": 2,
+      "duration_seconds": 64.0,
+      "output": "L2-03-real.mp4",
+      "sha256": "ade99465f1a996ddca87a85630e2baeac06c2b60a69593bb37f8bdaf3433c9c5",
+      "bytes": 10677244,
+      "speed_note": "Estimated from burned-in source start/end timestamps.",
+      "evidence_review": "Pouring and end state retained. Simulation source reports empty source cup and 7/12 retained, meeting the six-ball threshold. Real outcome follows prior explicit author confirmation; receiving count not independently re-counted from compressed footage.",
+      "displayed_speed": "Edited & sped up",
+      "presentation_frame_repair": {
+        "id": "L2-03-real",
+        "output_frames_held": [
+          208,
+          464,
+          724,
+          956
+        ],
+        "fps": 24,
+        "method": "Omit isolated corrupt composite frames at their original timestamps; constant-rate resampling holds an adjacent recorded frame. No image synthesis or change to experimental records."
+      },
+      "source": {
+        "archive": "真机任务视频_2分钟内.zip",
+        "file": "L2-03_倒玻璃球_成功_pearl_pouring_trial02_20261011_弹珠.mp4",
+        "trial": "pearl_pouring_trial02_20261011",
+        "record_category": "前期（记录为未判定，见说明）",
+        "note": "Representative historical recording; not asserted to be one of the three scored paper episodes."
+      }
+    },
+    {
+      "id": "L2-03-sim",
+      "task": "L2-03",
+      "domain": "sim",
+      "title": "Marble Pouring",
+      "outcome": "Success",
+      "source_sha256": "a373934988e58e7efdd3d74729a8b228e28fc9ad69124044ecb03e786a7a2ac0",
+      "source_duration": 131.0,
+      "camera_crops_xywh": [
+        [
+          248,
+          482,
+          704,
+          524
+        ],
+        [
+          20,
+          118,
+          560,
+          314
+        ],
+        [
+          620,
+          118,
+          560,
+          314
+        ]
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 18,
+          "source_playback_rate": 2,
+          "output_start": 0,
+          "output_end": 9.0
+        },
+        {
+          "source_start": 18,
+          "source_end": 22,
+          "source_playback_rate": 1,
+          "output_start": 9.0,
+          "output_end": 13.0
+        },
+        {
+          "source_start": 22,
+          "source_end": 31,
+          "source_playback_rate": 0.5,
+          "output_start": 13.0,
+          "output_end": 31.0
+        },
+        {
+          "source_start": 31,
+          "source_end": 34,
+          "source_playback_rate": 1,
+          "output_start": 31.0,
+          "output_end": 34.0
+        }
+      ],
+      "final_hold_seconds": 3,
+      "duration_seconds": 37.0,
+      "output": "L2-03-sim.mp4",
+      "sha256": "ca4deff40c163a0d163c3cdc2e7ead4286dee315dd91d94e3357d65d697007da",
+      "bytes": 2662432,
+      "evidence_review": "End after pouring, with the empty source cup and marbles in the receiving cup visible. The 22–31 s interval is slowed to half source speed; no interpolated/generated frames. Later repetitive manipulation is omitted. Selected trial recorded 7/12 marbles in the receiver; no claim of spill-free transfer.",
+      "displayed_speed": "Edited & sped up",
+      "source": {
+        "source_filename": "gpt_run_L2-03_20261018_second_three_views.mp4",
+        "source_sha256": "a373934988e58e7efdd3d74729a8b228e28fc9ad69124044ecb03e786a7a2ac0",
+        "source_document": "https://my.feishu.cn/docx/ZoJldLYM3onU51xWYDvc9qX7nxg",
+        "source_block": "Vh5YdII3AoXJ1YxNvOIcovTOnoh",
+        "note": "Selected historical recording; not asserted to be one of the three scored paper episodes."
+      },
+      "source_filename": "gpt_run_L2-03_20261018_second_three_views.mp4",
+      "source_document": "https://my.feishu.cn/docx/ZoJldLYM3onU51xWYDvc9qX7nxg",
+      "source_block": "Vh5YdII3AoXJ1YxNvOIcovTOnoh",
+      "speed_note": "Rates in edits are relative to the downloaded source, not wall-clock model inference time. All three views share each source time mapping. Slow segments repeat recorded frames; no motion interpolation.",
+      "presentation_frame_repair": {
+        "output_frames_held": [],
+        "fps": 24,
+        "note": "Short whole-camera source gaps hold the preceding recorded frame; duration preserved."
+      }
+    },
+    {
+      "id": "L2-04-real",
+      "task": "L2-04",
+      "domain": "real",
+      "title": "Orange Handling",
+      "outcome": "Success",
+      "source_sha256": "dc05ac30f257321dd6283632e88887abaab147162c0746b0022205f4c21df36c",
+      "source_duration": 90.0,
+      "camera_crops_xywh": [
+        [
+          248,
+          482,
+          704,
+          524
+        ],
+        [
+          20,
+          118,
+          560,
+          314
+        ],
+        [
+          620,
+          118,
+          560,
+          314
+        ]
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 50,
+          "source_playback_rate": 2.5,
+          "output_start": 0,
+          "output_end": 20.0
+        },
+        {
+          "source_start": 50,
+          "source_end": 63,
+          "source_playback_rate": 0.65,
+          "output_start": 20.0,
+          "output_end": 40.0
+        },
+        {
+          "source_start": 63,
+          "source_end": 90,
+          "source_playback_rate": 1.3224489774327368,
+          "output_start": 40.0,
+          "output_end": 60.41666669999999
+        }
+      ],
+      "final_hold_seconds": 3,
+      "duration_seconds": 63.42,
+      "output": "L2-04-real.mp4",
+      "sha256": "1b63fe631d754cdcd68b074c7d541692e363a6ce068645ec41760a2f12602c17",
+      "bytes": 4821902,
+      "evidence_review": "Replace the cylinder-support trial with real_L2-04, second orange trial, using a blue support box matching the simulation setting. Slow the recorded manipulation interval and preserve the recorded end state. Original recording is already a 21.39x source time-lapse; presentation timing does not imply physical-time synchronization.",
+      "displayed_speed": "Edited & sped up",
+      "source": {
+        "source_filename": "real_L2-04.mp4",
+        "source_sha256": "dc05ac30f257321dd6283632e88887abaab147162c0746b0022205f4c21df36c",
+        "source_document": "https://my.feishu.cn/docx/ZoJldLYM3onU51xWYDvc9qX7nxg",
+        "source_block": "BTD1dv7uuoX077xa7IRc6xoPngb",
+        "note": "Selected historical recording; not asserted to be one of the three scored paper episodes."
+      },
+      "source_filename": "real_L2-04.mp4",
+      "source_document": "https://my.feishu.cn/docx/ZoJldLYM3onU51xWYDvc9qX7nxg",
+      "source_block": "BTD1dv7uuoX077xa7IRc6xoPngb",
+      "speed_note": "Rates in edits are relative to the downloaded source, not wall-clock model inference time. All three views share each source time mapping. Slow segments repeat recorded frames; no motion interpolation.",
+      "presentation_frame_repair": {
+        "output_frames_held": [
+          83,
+          348,
+          661,
+          918,
+          958,
+          1281,
+          1423
+        ],
+        "fps": 24,
+        "note": "Short whole-camera source gaps hold the preceding recorded frame; duration preserved."
+      }
+    },
+    {
+      "id": "L2-04-sim",
+      "task": "L2-04",
+      "domain": "sim",
+      "title": "Orange Handling",
+      "outcome": "Success",
+      "source_sha256": "7a396b65be9f588469dbbe2816d75dd3ebd6528da0c031a845ce68902ad9ab1b",
+      "source_duration": 108.42,
+      "camera_crops_xywh": [
+        [
+          248,
+          482,
+          704,
+          524
+        ],
+        [
+          20,
+          118,
+          560,
+          314
+        ],
+        [
+          620,
+          118,
+          560,
+          314
+        ]
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 50,
+          "source_playback_rate": 2.5,
+          "output_start": 0,
+          "output_end": 20.0
+        },
+        {
+          "source_start": 50,
+          "source_end": 88,
+          "source_playback_rate": 1.9,
+          "output_start": 20.0,
+          "output_end": 40.0
+        },
+        {
+          "source_start": 88,
+          "source_end": 108.42,
+          "source_playback_rate": 1,
+          "output_start": 40.0,
+          "output_end": 60.42
+        }
+      ],
+      "final_hold_seconds": 3,
+      "duration_seconds": 63.42,
+      "output": "L2-04-sim.mp4",
+      "sha256": "c67f4ea3eda5727d7be256a7b13bbd78d2832a67b9c312e4812e41e5a777ff25",
+      "bytes": 5274130,
+      "evidence_review": "Keep the successful second simulation trial; retain lift, return, open gripper and final support state. Present the same blue-box setting as the replacement real recording. Timelines are separately edited, not synchronized experimental clocks.",
+      "displayed_speed": "Edited & sped up",
+      "source": {
+        "source_filename": "gpt_run_L2-04_second_20261018.mp4",
+        "source_sha256": "7a396b65be9f588469dbbe2816d75dd3ebd6528da0c031a845ce68902ad9ab1b",
+        "source_document": "https://my.feishu.cn/docx/ZoJldLYM3onU51xWYDvc9qX7nxg",
+        "source_block": "TE2ldtiSlovAHDxeupaciRyUnyh",
+        "note": "Selected historical recording; not asserted to be one of the three scored paper episodes."
+      },
+      "source_filename": "gpt_run_L2-04_second_20261018.mp4",
+      "source_document": "https://my.feishu.cn/docx/ZoJldLYM3onU51xWYDvc9qX7nxg",
+      "source_block": "TE2ldtiSlovAHDxeupaciRyUnyh",
+      "speed_note": "Rates in edits are relative to the downloaded source, not wall-clock model inference time. All three views share each source time mapping. Slow segments repeat recorded frames; no motion interpolation.",
+      "presentation_frame_repair": {
+        "output_frames_held": [],
+        "fps": 24,
+        "note": "Short whole-camera source gaps hold the preceding recorded frame; duration preserved."
+      }
+    },
+    {
+      "id": "L2-05-real",
+      "task": "L2-05",
+      "domain": "real",
+      "title": "Drawer Pull & Return",
+      "outcome": "Success",
+      "source_sha256": "077a8147c4198569b9a4f968d697b8253b2eb2720ede558ed372767da48df5df",
+      "source_duration": 118.0,
+      "camera_crops_xywh": [
+        [
+          12,
+          390,
+          936,
+          658
+        ],
+        [
+          12,
+          104,
+          462,
+          244
+        ],
+        [
+          486,
+          104,
+          462,
+          244
+        ]
+      ],
+      "unavailable_camera_intervals": [
+        [],
+        [],
+        []
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 3,
+          "source_playback_rate": 1,
+          "output_start": 0,
+          "output_end": 3.0,
+          "speed_label": "Variable speed"
+        },
+        {
+          "source_start": 15,
+          "source_end": 112,
+          "source_playback_rate": 1,
+          "output_start": 3.0,
+          "output_end": 100.0,
+          "speed_label": "Variable speed"
+        },
+        {
+          "source_start": 115.88,
+          "source_end": 117.88,
+          "source_playback_rate": 1,
+          "output_start": 100.0,
+          "output_end": 102.0,
+          "speed_label": "Variable speed"
+        }
+      ],
+      "final_hold_seconds": 2,
+      "duration_seconds": 104.0,
+      "output": "L2-05-real.mp4",
+      "sha256": "66b0b5b04dcf91ed92aee6ad0b4bc1b588daecf4be35b89eaa208d836b02762a",
+      "bytes": 10468480,
+      "speed_note": "Source is edited at different segment speeds; no single numeric real-time rate.",
+      "evidence_review": "Drawer outward movement and return retained.",
+      "displayed_speed": "Edited & sped up",
+      "presentation_frame_repair": null,
+      "source": {
+        "archive": "真机任务视频_2分钟内.zip",
+        "file": "L2-05_开关抽屉_成功_drawer_push_pull_trial04_20261017.mp4",
+        "trial": "drawer_push_pull_trial04_20261017",
+        "record_category": "前期",
+        "note": "Representative historical recording; not asserted to be one of the three scored paper episodes."
+      }
+    },
+    {
+      "id": "L2-05-sim",
+      "task": "L2-05",
+      "domain": "sim",
+      "title": "Drawer Pull & Return",
+      "outcome": "Success",
+      "source_sha256": "69a1e74d5541c5eca4cd1b1dd8cbaa0e36b133ba3ce48e8563501f425f3e112e",
+      "source_duration": 106.58,
+      "camera_crops_xywh": [
+        [
+          248,
+          482,
+          704,
+          524
+        ],
+        [
+          20,
+          118,
+          560,
+          314
+        ],
+        [
+          620,
+          118,
+          560,
+          314
+        ]
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 70,
+          "source_playback_rate": 2,
+          "output_start": 0,
+          "output_end": 35.0
+        },
+        {
+          "source_start": 70,
+          "source_end": 106.58,
+          "source_playback_rate": 1,
+          "output_start": 35.0,
+          "output_end": 71.58
+        }
+      ],
+      "final_hold_seconds": 4,
+      "duration_seconds": 75.58,
+      "output": "L2-05-sim.mp4",
+      "sha256": "a27d9e37470f9a21644b809629d3a4dfb6366a034456b1e59069faf2a1bd6b0f",
+      "bytes": 5498440,
+      "evidence_review": "Keep all recorded frames and play the final 36.58 s without further acceleration. Original archive and all-source-frames composition confirm recording ends at task_terminal after 1279 frames, 106.58 s; no later arm-home motion exists in this trial. Do not fabricate a reset.",
+      "displayed_speed": "Edited & sped up",
+      "source": {
+        "source_filename": "gpt_run_L2-05_v3_third_20261019.mp4",
+        "source_sha256": "69a1e74d5541c5eca4cd1b1dd8cbaa0e36b133ba3ce48e8563501f425f3e112e",
+        "source_document": "https://my.feishu.cn/docx/ZoJldLYM3onU51xWYDvc9qX7nxg",
+        "source_block": "CqpHd8wI1omQwbxDS2yc98oknFf",
+        "note": "Selected historical recording; not asserted to be one of the three scored paper episodes."
+      },
+      "source_filename": "gpt_run_L2-05_v3_third_20261019.mp4",
+      "source_document": "https://my.feishu.cn/docx/ZoJldLYM3onU51xWYDvc9qX7nxg",
+      "source_block": "CqpHd8wI1omQwbxDS2yc98oknFf",
+      "speed_note": "Rates in edits are relative to the downloaded source, not wall-clock model inference time. All three views share each source time mapping. Slow segments repeat recorded frames; no motion interpolation.",
+      "presentation_frame_repair": {
+        "output_frames_held": [],
+        "fps": 24,
+        "note": "Short whole-camera source gaps hold the preceding recorded frame; duration preserved."
+      }
+    },
+    {
+      "id": "L2-06-real",
+      "task": "L2-06",
+      "domain": "real",
+      "title": "Jelly Handling",
+      "outcome": "Failure",
+      "source_sha256": "3f56a289ba43b39e685b64bd2a162dab5bd89434803ba04bbc876c697f27035b",
+      "source_duration": 118.0,
+      "camera_crops_xywh": [
+        [
+          12,
+          390,
+          936,
+          658
+        ],
+        [
+          12,
+          104,
+          462,
+          244
+        ],
+        [
+          486,
+          104,
+          462,
+          244
+        ]
+      ],
+      "unavailable_camera_intervals": [
+        [
+          [
+            20.45,
+            20.5
+          ],
+          [
+            41.6,
+            41.65
+          ],
+          [
+            88.85,
+            88.9
+          ]
+        ],
+        [
+          [
+            20.45,
+            20.5
+          ],
+          [
+            41.6,
+            41.65
+          ],
+          [
+            88.85,
+            88.9
+          ]
+        ],
+        [
+          [
+            20.45,
+            20.5
+          ],
+          [
+            41.6,
+            41.65
+          ],
+          [
+            88.85,
+            88.9
+          ]
+        ]
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 3,
+          "source_playback_rate": 1,
+          "output_start": 0,
+          "output_end": 3.0,
+          "speed_label": "8.991x"
+        },
+        {
+          "source_start": 20,
+          "source_end": 110,
+          "source_playback_rate": 1,
+          "output_start": 3.0,
+          "output_end": 93.0,
+          "speed_label": "8.991x"
+        },
+        {
+          "source_start": 115.88,
+          "source_end": 117.88,
+          "source_playback_rate": 1,
+          "output_start": 93.0,
+          "output_end": 95.0,
+          "speed_label": "8.991x"
+        }
+      ],
+      "final_hold_seconds": 2,
+      "duration_seconds": 97.0,
+      "output": "L2-06-real.mp4",
+      "sha256": "3833c04c52fc50570ac9131ecde21d6a65bde08d3226f63311cfe68816f598e5",
+      "bytes": 10049388,
+      "speed_note": "Source header; uniform source compression.",
+      "evidence_review": "Grasp attempts fail to complete the required lift and return.",
+      "displayed_speed": "Edited & sped up",
+      "presentation_frame_repair": {
+        "id": "L2-06-real",
+        "output_frames_held": [
+          83,
+          591,
+          1725
+        ],
+        "fps": 24,
+        "method": "Omit isolated corrupt composite frames at their original timestamps; constant-rate resampling holds an adjacent recorded frame. No image synthesis or change to experimental records."
+      },
+      "source": {
+        "archive": "真机任务视频_2分钟内.zip",
+        "file": "L2-06_夹果冻_失败_jelly_pick_place_trial01_20261016.mp4",
+        "trial": "jelly_pick_place_trial01_20261016",
+        "record_category": "前期",
+        "note": "Representative historical recording; not asserted to be one of the three scored paper episodes."
+      }
+    },
+    {
+      "id": "L2-06-sim",
+      "task": "L2-06",
+      "domain": "sim",
+      "title": "Jelly Handling",
+      "outcome": "Failure",
+      "source_sha256": "bfda9b2307c19171bbabea7eeacb72edbf38369f07667fd024d9c362dff32bfc",
+      "source_duration": 56.58,
+      "camera_crops_xywh": [
+        [
+          248,
+          482,
+          704,
+          524
+        ],
+        [
+          20,
+          118,
+          560,
+          314
+        ],
+        [
+          620,
+          118,
+          560,
+          314
+        ]
+      ],
+      "unavailable_camera_intervals": [
+        [],
+        [],
+        []
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 56.46,
+          "source_playback_rate": 1,
+          "output_start": 0,
+          "output_end": 56.46,
+          "speed_label": "1x SIM TIME"
+        }
+      ],
+      "final_hold_seconds": 2,
+      "duration_seconds": 58.46,
+      "output": "L2-06-sim.mp4",
+      "sha256": "68a7080a1c4e3e50e255480593d77b11b90473a29d0f4206444edbff0c2798bd",
+      "bytes": 3460829,
+      "speed_note": "Relative to simulated physical time. Model inference waits were already omitted while simulation was paused; not relative to wall-clock trial duration.",
+      "evidence_review": "Grasp attempts fail to complete the required lift and return.",
+      "displayed_speed": "Edited & sped up",
+      "presentation_frame_repair": null,
+      "source": {
+        "task_id": "L2-06",
+        "domain": "sim",
+        "source_filename": "gpt_run_L2-06_second_20261019.mp4",
+        "source_document": "https://my.feishu.cn/docx/U8AsdPiq2oqRb8xzletcrsXanBh",
+        "source_block": "KMc7d8UQ3oCNNnxB68dcAkx0n4c",
+        "download_quality": "1080p Feishu stream",
+        "source_sha256": "bfda9b2307c19171bbabea7eeacb72edbf38369f07667fd024d9c362dff32bfc"
+      }
+    },
+    {
+      "id": "L2-07-real",
+      "task": "L2-07",
+      "domain": "real",
+      "title": "Whiteboard Wiping",
+      "outcome": "Success",
+      "source_sha256": "e942895265a5cd5461379c016c30e7c041fcc5a789cf668625eed16e3572f3cf",
+      "source_duration": 118.0,
+      "camera_crops_xywh": [
+        [
+          12,
+          390,
+          936,
+          658
+        ],
+        [
+          12,
+          104,
+          462,
+          244
+        ],
+        [
+          486,
+          104,
+          462,
+          244
+        ]
+      ],
+      "unavailable_camera_intervals": [
+        [
+          [
+            58.2,
+            58.25
+          ],
+          [
+            76.7,
+            76.75
+          ]
+        ],
+        [
+          [
+            58.2,
+            58.25
+          ],
+          [
+            76.7,
+            76.75
+          ]
+        ],
+        [
+          [
+            58.2,
+            58.25
+          ],
+          [
+            76.7,
+            76.75
+          ]
+        ]
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 3,
+          "source_playback_rate": 1,
+          "output_start": 0,
+          "output_end": 3.0,
+          "speed_label": "Variable speed"
+        },
+        {
+          "source_start": 14,
+          "source_end": 112,
+          "source_playback_rate": 1,
+          "output_start": 3.0,
+          "output_end": 101.0,
+          "speed_label": "Variable speed"
+        },
+        {
+          "source_start": 115.88,
+          "source_end": 117.88,
+          "source_playback_rate": 1,
+          "output_start": 101.0,
+          "output_end": 103.0,
+          "speed_label": "Variable speed"
+        }
+      ],
+      "final_hold_seconds": 2,
+      "duration_seconds": 105.0,
+      "output": "L2-07-real.mp4",
+      "sha256": "d81913e87e750a3594432cc37b90ba24c0273da82c431f18a3be3d63e06b4ed6",
+      "bytes": 12718622,
+      "speed_note": "Source is edited at different segment speeds; no single numeric real-time rate.",
+      "evidence_review": "Simulation replaced with the complete 2026-10-17 recording, showing removal of the remaining writing and the cleared final board. Real recording is trial10, the requested second materials video, accepted by the author.",
+      "displayed_speed": "Edited & sped up",
+      "presentation_frame_repair": {
+        "id": "L2-07-real",
+        "output_frames_held": [
+          1133,
+          1577
+        ],
+        "fps": 24,
+        "method": "Omit isolated corrupt composite frames at their original timestamps; constant-rate resampling holds an adjacent recorded frame. No image synthesis or change to experimental records."
+      },
+      "source": {
+        "archive": "真机任务视频_2分钟内.zip",
+        "file": "L2-07_擦白板_成功_whiteboard_wiping_trial10_20261017.mp4",
+        "trial": "whiteboard_wiping_trial10_20261017",
+        "record_category": "前期",
+        "note": "Representative historical recording; not asserted to be one of the three scored paper episodes."
+      }
+    },
+    {
+      "id": "L2-07-sim",
+      "task": "L2-07",
+      "domain": "sim",
+      "title": "Whiteboard Wiping",
+      "outcome": "Success",
+      "source_sha256": "e7c3618cecff47878b50bed670f3b5c4b6029345f6689776e5d1efde89cecccd",
+      "source_duration": 241.0,
+      "camera_crops_xywh": [
+        [
+          248,
+          482,
+          704,
+          524
+        ],
+        [
+          20,
+          118,
+          560,
+          314
+        ],
+        [
+          620,
+          118,
+          560,
+          314
+        ]
+      ],
+      "unavailable_camera_intervals": [
+        [],
+        [],
+        []
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 170,
+          "source_playback_rate": 3,
+          "output_start": 0,
+          "output_end": 56.666666666666664,
+          "speed_label": "3x SIM TIME"
+        },
+        {
+          "source_start": 170,
+          "source_end": 215,
+          "source_playback_rate": 1.5,
+          "output_start": 56.666666666666664,
+          "output_end": 86.66666666666666,
+          "speed_label": "1.5x SIM TIME"
+        },
+        {
+          "source_start": 235,
+          "source_end": 240.88,
+          "source_playback_rate": 1,
+          "output_start": 86.66666666666666,
+          "output_end": 92.54666666666665,
+          "speed_label": "1x SIM TIME"
+        }
+      ],
+      "final_hold_seconds": 2,
+      "duration_seconds": 94.547,
+      "output": "L2-07-sim.mp4",
+      "sha256": "43b8f1036fbda8822059bab08557a5b4413024bb727238d4b5cd74baff1f2487",
+      "bytes": 6478232,
+      "speed_note": "Relative to simulated physical time. Model inference waits were already omitted while simulation was paused; not relative to wall-clock trial duration.",
+      "evidence_review": "Simulation replaced with the complete 2026-10-17 recording, showing removal of the remaining writing and the cleared final board. Real recording is trial10, the requested second materials video, accepted by the author.",
+      "displayed_speed": "Edited & sped up",
+      "presentation_frame_repair": null,
+      "source": {
+        "task_id": "L2-07",
+        "domain": "sim",
+        "source_filename": "gpt_run_L3-03_20261017_three_views.mp4",
+        "source_document": "https://my.feishu.cn/docx/ZoJldLYM3onU51xWYDvc9qX7nxg",
+        "source_block": "UoB0dQKGAoGXltx77MOcIlfFnUb",
+        "download_quality": "1080p Feishu stream",
+        "source_sha256": "e7c3618cecff47878b50bed670f3b5c4b6029345f6689776e5d1efde89cecccd"
+      }
+    },
+    {
+      "id": "L3-01-real",
+      "task": "L3-01",
+      "domain": "real",
+      "title": "Bottle Cap Removal",
+      "outcome": "Failure",
+      "source_sha256": "ae5d4c4673e00f2e174c3eaf9f7f87ef4a8e1d0fed4c9d5cd210778ea5e108c8",
+      "source_duration": 90.0,
+      "camera_crops_xywh": [
+        [
+          320,
+          512,
+          640,
+          480
+        ],
+        [
+          0,
+          62,
+          640,
+          360
+        ],
+        [
+          640,
+          62,
+          640,
+          360
+        ]
+      ],
+      "unavailable_camera_intervals": [
+        [
+          [
+            21.15,
+            21.2
+          ],
+          [
+            40.0,
+            40.05
+          ]
+        ],
+        [
+          [
+            21.15,
+            21.2
+          ],
+          [
+            40.0,
+            40.05
+          ]
+        ],
+        [
+          [
+            21.15,
+            21.2
+          ],
+          [
+            40.0,
+            40.05
+          ]
+        ]
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 3,
+          "source_playback_rate": 1,
+          "output_start": 0,
+          "output_end": 3.0,
+          "speed_label": "~10x overall"
+        },
+        {
+          "source_start": 15,
+          "source_end": 86,
+          "source_playback_rate": 1,
+          "output_start": 3.0,
+          "output_end": 74.0,
+          "speed_label": "~10x overall"
+        },
+        {
+          "source_start": 87.88,
+          "source_end": 89.88,
+          "source_playback_rate": 1,
+          "output_start": 74.0,
+          "output_end": 76.0,
+          "speed_label": "~10x overall"
+        }
+      ],
+      "final_hold_seconds": 2,
+      "duration_seconds": 78.0,
+      "output": "L3-01-real.mp4",
+      "sha256": "b534bf9fcedf22b70d712fd3d714f58f9c7aa3bd3742827e2c00d8bc6c1e9b33",
+      "bytes": 12747664,
+      "speed_note": "Estimated from burned-in source start/end timestamps.",
+      "evidence_review": "Cap manipulation followed by loss of bottle support retained. The paper requires cap separation while the bottle remains fixed; this sequence does not satisfy the full criterion.",
+      "displayed_speed": "Edited & sped up",
+      "presentation_frame_repair": {
+        "id": "L3-01-real",
+        "output_frames_held": [
+          220,
+          672,
+          673
+        ],
+        "fps": 24,
+        "method": "Omit isolated corrupt composite frames at their original timestamps; constant-rate resampling holds an adjacent recorded frame. No image synthesis or change to experimental records."
+      },
+      "source": {
+        "archive": "真机任务视频_2分钟内.zip",
+        "file": "L3-01_拧瓶盖_失败_left_cap_unscrewing_trial02_20261014.mp4",
+        "trial": "left_cap_unscrewing_trial02_20261014",
+        "record_category": "当前版本（左臂旋盖）",
+        "note": "Representative historical recording; not asserted to be one of the three scored paper episodes."
+      }
+    },
+    {
+      "id": "L3-01-sim",
+      "task": "L3-01",
+      "domain": "sim",
+      "title": "Bottle Cap Removal",
+      "outcome": "Failure",
+      "source_sha256": "062cd6792c5c192f9585894e3158926c981c78bc8f3ccefffeae4b3d5ad582eb",
+      "source_duration": 133.17,
+      "camera_crops_xywh": [
+        [
+          248,
+          482,
+          704,
+          524
+        ],
+        [
+          20,
+          118,
+          560,
+          314
+        ],
+        [
+          620,
+          118,
+          560,
+          314
+        ]
+      ],
+      "unavailable_camera_intervals": [
+        [],
+        [],
+        []
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 121.04999999999998,
+          "source_playback_rate": 2,
+          "output_start": 0,
+          "output_end": 60.52499999999999,
+          "speed_label": "2x SIM TIME"
+        },
+        {
+          "source_start": 121.04999999999998,
+          "source_end": 133.04999999999998,
+          "source_playback_rate": 1,
+          "output_start": 60.52499999999999,
+          "output_end": 72.52499999999999,
+          "speed_label": "1x SIM TIME"
+        }
+      ],
+      "final_hold_seconds": 2,
+      "duration_seconds": 74.525,
+      "output": "L3-01-sim.mp4",
+      "sha256": "8dd94e283f6b7114c8b691560ca82f16191533ba83319c4cb58b3a9a60225c6d",
+      "bytes": 2767966,
+      "speed_note": "Relative to simulated physical time. Model inference waits were already omitted while simulation was paused; not relative to wall-clock trial duration.",
+      "evidence_review": "Cap manipulation followed by loss of bottle support retained. The paper requires cap separation while the bottle remains fixed; this sequence does not satisfy the full criterion.",
+      "displayed_speed": "Edited & sped up",
+      "presentation_frame_repair": null,
+      "source": {
+        "task_id": "L3-01",
+        "domain": "sim",
+        "source_filename": "gpt_run_L3-01_20261018_three_views.mp4",
+        "source_document": "https://my.feishu.cn/docx/U8AsdPiq2oqRb8xzletcrsXanBh",
+        "source_block": "SzGPdJO9boqfPUxrcuXcYamHnzd",
+        "download_quality": "1080p Feishu stream",
+        "source_sha256": "062cd6792c5c192f9585894e3158926c981c78bc8f3ccefffeae4b3d5ad582eb"
+      }
+    },
+    {
+      "id": "L3-02-real",
+      "task": "L3-02",
+      "domain": "real",
+      "title": "Nut Removal",
+      "outcome": "Failure",
+      "source_sha256": "eb2e018ef62e9aa765e5cb2e6e7873bcb5573d14ba6d0a27f5d408031ba6d198",
+      "source_duration": 90.0,
+      "camera_crops_xywh": [
+        [
+          320,
+          512,
+          640,
+          480
+        ],
+        [
+          0,
+          62,
+          640,
+          360
+        ],
+        [
+          640,
+          62,
+          640,
+          360
+        ]
+      ],
+      "unavailable_camera_intervals": [
+        [
+          [
+            26.9,
+            26.95
+          ]
+        ],
+        [
+          [
+            26.9,
+            26.95
+          ]
+        ],
+        [
+          [
+            26.9,
+            26.95
+          ]
+        ]
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 3,
+          "source_playback_rate": 1,
+          "output_start": 0,
+          "output_end": 3.0,
+          "speed_label": "~34.3x overall"
+        },
+        {
+          "source_start": 22,
+          "source_end": 86,
+          "source_playback_rate": 1,
+          "output_start": 3.0,
+          "output_end": 67.0,
+          "speed_label": "~34.3x overall"
+        },
+        {
+          "source_start": 87.88,
+          "source_end": 89.88,
+          "source_playback_rate": 1,
+          "output_start": 67.0,
+          "output_end": 69.0,
+          "speed_label": "~34.3x overall"
+        }
+      ],
+      "final_hold_seconds": 2,
+      "duration_seconds": 71.0,
+      "output": "L3-02-real.mp4",
+      "sha256": "1e4e2e5ec0a97289d1fcca7c49801880eae056d5e460322ad5aac5937a8ddbb4",
+      "bytes": 12116158,
+      "speed_note": "Estimated from burned-in source start/end timestamps.",
+      "evidence_review": "Repeated grasp/turn attempts do not complete supported nut separation.",
+      "displayed_speed": "Edited & sped up",
+      "presentation_frame_repair": {
+        "id": "L3-02-real",
+        "output_frames_held": [
+          190
+        ],
+        "fps": 24,
+        "method": "Omit isolated corrupt composite frames at their original timestamps; constant-rate resampling holds an adjacent recorded frame. No image synthesis or change to experimental records."
+      },
+      "source": {
+        "archive": "真机任务视频_2分钟内.zip",
+        "file": "L3-02_旋下螺母_失败_bolt_unscrewing_trial01_20261011.mp4",
+        "trial": "bolt_unscrewing_trial01_20261011",
+        "record_category": "前期",
+        "note": "Representative historical recording; not asserted to be one of the three scored paper episodes."
+      }
+    },
+    {
+      "id": "L3-02-sim",
+      "task": "L3-02",
+      "domain": "sim",
+      "title": "Nut Removal",
+      "outcome": "Failure",
+      "source_sha256": "127133893675e4f3ad5e69554743bf5f30f8527a1203ca486427f4bdbf9a1d17",
+      "source_duration": 85.0,
+      "camera_crops_xywh": [
+        [
+          248,
+          482,
+          704,
+          524
+        ],
+        [
+          20,
+          118,
+          560,
+          314
+        ],
+        [
+          620,
+          118,
+          560,
+          314
+        ]
+      ],
+      "unavailable_camera_intervals": [
+        [],
+        [],
+        []
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 84.88,
+          "source_playback_rate": 1,
+          "output_start": 0,
+          "output_end": 84.88,
+          "speed_label": "1x SIM TIME"
+        }
+      ],
+      "final_hold_seconds": 2,
+      "duration_seconds": 86.88,
+      "output": "L3-02-sim.mp4",
+      "sha256": "8d5eba67cab648546001bbac7206da3939381178cafd7c3fe0b78527ff37d8ca",
+      "bytes": 7304742,
+      "speed_note": "Relative to simulated physical time. Model inference waits were already omitted while simulation was paused; not relative to wall-clock trial duration.",
+      "evidence_review": "Repeated grasp/turn attempts do not complete supported nut separation.",
+      "displayed_speed": "Edited & sped up",
+      "presentation_frame_repair": null,
+      "source": {
+        "task_id": "L3-02",
+        "domain": "sim",
+        "source_filename": "gpt_run_L3-02_20261018_three_views.mp4",
+        "source_document": "https://my.feishu.cn/docx/U8AsdPiq2oqRb8xzletcrsXanBh",
+        "source_block": "B2PedsLCdoXcZdxNRs2cESfBnsc",
+        "download_quality": "1080p Feishu stream",
+        "source_sha256": "127133893675e4f3ad5e69554743bf5f30f8527a1203ca486427f4bdbf9a1d17"
+      }
+    },
+    {
+      "id": "L3-03-real",
+      "task": "L3-03",
+      "domain": "real",
+      "title": "Stacked-Book Pushing",
+      "outcome": "Failure",
+      "source_sha256": "f6750336007bd246dffb43746a900b67736d25d94e3ab397569319259f8f12c5",
+      "source_duration": 90.0,
+      "camera_crops_xywh": [
+        [
+          320,
+          512,
+          640,
+          480
+        ],
+        [
+          0,
+          62,
+          640,
+          360
+        ],
+        [
+          640,
+          62,
+          640,
+          360
+        ]
+      ],
+      "unavailable_camera_intervals": [
+        [
+          [
+            1.2,
+            1.25
+          ],
+          [
+            23.3,
+            23.35
+          ],
+          [
+            63.3,
+            63.35
+          ],
+          [
+            73.6,
+            73.65
+          ],
+          [
+            84.0,
+            84.05
+          ]
+        ],
+        [
+          [
+            1.2,
+            1.25
+          ],
+          [
+            23.3,
+            23.35
+          ],
+          [
+            63.3,
+            63.35
+          ],
+          [
+            84.0,
+            84.05
+          ]
+        ],
+        [
+          [
+            1.2,
+            1.25
+          ],
+          [
+            23.3,
+            23.35
+          ],
+          [
+            63.3,
+            63.35
+          ],
+          [
+            84.0,
+            84.05
+          ]
+        ]
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 3,
+          "source_playback_rate": 1,
+          "output_start": 0,
+          "output_end": 3.0,
+          "speed_label": "~18.9x overall"
+        },
+        {
+          "source_start": 13,
+          "source_end": 86,
+          "source_playback_rate": 1,
+          "output_start": 3.0,
+          "output_end": 76.0,
+          "speed_label": "~18.9x overall"
+        },
+        {
+          "source_start": 87.88,
+          "source_end": 89.88,
+          "source_playback_rate": 1,
+          "output_start": 76.0,
+          "output_end": 78.0,
+          "speed_label": "~18.9x overall"
+        }
+      ],
+      "final_hold_seconds": 2,
+      "duration_seconds": 80.0,
+      "output": "L3-03-real.mp4",
+      "sha256": "e4b82a8a5802f64ed7a047171ed8310ef66ce05e96af044ec1413d3057e5a6c6",
+      "bytes": 12616728,
+      "speed_note": "Estimated from burned-in source start/end timestamps.",
+      "evidence_review": "Partial translation/rotation and final stack retained; full-turn target transfer not completed.",
+      "displayed_speed": "Edited & sped up",
+      "presentation_frame_repair": {
+        "id": "L3-03-real",
+        "output_frames_held": [
+          29,
+          320,
+          1280,
+          1527,
+          1776,
+          1777
+        ],
+        "fps": 24,
+        "method": "Omit isolated corrupt composite frames at their original timestamps; constant-rate resampling holds an adjacent recorded frame. No image synthesis or change to experimental records."
+      },
+      "source": {
+        "archive": "真机任务视频_2分钟内.zip",
+        "file": "L3-03_旋转推两本叠书入框_失败_双爪推叠书并旋转一圈-20261020_113632-withskills-b460d8d0.mp4",
+        "trial": "双爪推叠书并旋转一圈-20261020_113632-withskills-b460d8d0",
+        "record_category": "Released",
+        "note": "Representative historical recording; not asserted to be one of the three scored paper episodes."
+      }
+    },
+    {
+      "id": "L3-03-sim",
+      "task": "L3-03",
+      "domain": "sim",
+      "title": "Stacked-Book Pushing",
+      "outcome": "Failure",
+      "source_sha256": "a465d436fd42964d9bb45b6a69092fc679673922a840bde5063c6a26c4672e58",
+      "source_duration": 815.25,
+      "camera_crops_xywh": [
+        [
+          248,
+          482,
+          704,
+          524
+        ],
+        [
+          20,
+          118,
+          560,
+          314
+        ],
+        [
+          620,
+          118,
+          560,
+          314
+        ]
+      ],
+      "unavailable_camera_intervals": [
+        [],
+        [],
+        [
+          [
+            658.0833,
+            668.4167
+          ]
+        ]
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 799.13,
+          "source_playback_rate": 10,
+          "output_start": 0,
+          "output_end": 79.913,
+          "speed_label": "10x SIM TIME"
+        },
+        {
+          "source_start": 799.13,
+          "source_end": 815.13,
+          "source_playback_rate": 1,
+          "output_start": 79.913,
+          "output_end": 95.913,
+          "speed_label": "1x SIM TIME"
+        }
+      ],
+      "final_hold_seconds": 2,
+      "duration_seconds": 97.913,
+      "output": "L3-03-sim.mp4",
+      "sha256": "8e53525e9769453f8bf159ac1e389535d602c4b1afbf7a723ea82cb299d8941c",
+      "bytes": 6613635,
+      "speed_note": "Relative to simulated physical time. Model inference waits were already omitted while simulation was paused; not relative to wall-clock trial duration.",
+      "evidence_review": "Partial translation/rotation and final stack retained; full-turn target transfer not completed.",
+      "displayed_speed": "Edited & sped up",
+      "presentation_frame_repair": null,
+      "source": {
+        "task_id": "L3-03",
+        "domain": "sim",
+        "source_filename": "L3-04_第二次_三视角合成.mp4",
+        "source_document": "https://my.feishu.cn/docx/U8AsdPiq2oqRb8xzletcrsXanBh",
+        "source_block": "GaKEdawRro4CyBx5akxc2MMZnue",
+        "download_quality": "1080p Feishu stream",
+        "source_sha256": "a465d436fd42964d9bb45b6a69092fc679673922a840bde5063c6a26c4672e58"
+      }
+    },
+    {
+      "id": "L3-04-real",
+      "task": "L3-04",
+      "domain": "real",
+      "title": "Block Sweeping",
+      "outcome": "Failure",
+      "source_sha256": "12101b89136ff71a65694fe8709bf7ea09aa6f5b5d632f9a8f998f460305f5c6",
+      "source_duration": 90.0,
+      "camera_crops_xywh": [
+        [
+          276,
+          414,
+          728,
+          546
+        ],
+        [
+          2,
+          24,
+          636,
+          360
+        ],
+        [
+          642,
+          24,
+          636,
+          360
+        ]
+      ],
+      "unavailable_camera_intervals": [
+        [],
+        [],
+        []
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 3,
+          "source_playback_rate": 1,
+          "output_start": 0,
+          "output_end": 3.0,
+          "speed_label": "1x source"
+        },
+        {
+          "source_start": 10,
+          "source_end": 86,
+          "source_playback_rate": 1,
+          "output_start": 3.0,
+          "output_end": 79.0,
+          "speed_label": "1x source"
+        },
+        {
+          "source_start": 87.88,
+          "source_end": 89.88,
+          "source_playback_rate": 1,
+          "output_start": 79.0,
+          "output_end": 81.0,
+          "speed_label": "1x source"
+        }
+      ],
+      "final_hold_seconds": 2,
+      "duration_seconds": 83.0,
+      "output": "L3-04-real.mp4",
+      "sha256": "bf95ecdd8d1cffd7bb23026372433ec7646c47c570afe6fc058683135e1195ca",
+      "bytes": 8632648,
+      "speed_note": "Time-compressed source; real-time factor undocumented. Playback is 1x the source file, not 1x real time.",
+      "evidence_review": "Brush use and final workspace retained; three blocks are not collected in the fixed dustpan.",
+      "displayed_speed": "Edited & sped up",
+      "presentation_frame_repair": null,
+      "source": {
+        "archive": "真机任务视频_2分钟内.zip",
+        "file": "L3-04_扫积木入簸箕_失败_independent_brush_20261018_183232.mp4",
+        "trial": "independent_brush_20261018_183232",
+        "record_category": "Strictly（10/18，R01）",
+        "note": "Representative historical recording; not asserted to be one of the three scored paper episodes."
+      }
+    },
+    {
+      "id": "L3-04-sim",
+      "task": "L3-04",
+      "domain": "sim",
+      "title": "Block Sweeping",
+      "outcome": "Failure",
+      "source_sha256": "bc4ef48d31b06cf1d614ea186a2ba0535e3c1a4517b49f5509e2072f3d5df549",
+      "source_duration": 512.75,
+      "camera_crops_xywh": [
+        [
+          0,
+          422,
+          1080,
+          804
+        ],
+        [
+          0,
+          84,
+          540,
+          304
+        ],
+        [
+          540,
+          84,
+          540,
+          304
+        ]
+      ],
+      "unavailable_camera_intervals": [
+        [],
+        [],
+        []
+      ],
+      "edits": [
+        {
+          "source_start": 0,
+          "source_end": 500.63,
+          "source_playback_rate": 6,
+          "output_start": 0,
+          "output_end": 83.43833333333333,
+          "speed_label": "6x SIM TIME"
+        },
+        {
+          "source_start": 500.63,
+          "source_end": 512.63,
+          "source_playback_rate": 1,
+          "output_start": 83.43833333333333,
+          "output_end": 95.43833333333333,
+          "speed_label": "1x SIM TIME"
+        }
+      ],
+      "final_hold_seconds": 2,
+      "duration_seconds": 97.438,
+      "output": "L3-04-sim.mp4",
+      "sha256": "4e74fb6e599dd43a8e8117a9f16d9c414a36eec45ac18cc9479ed022b53c9d91",
+      "bytes": 8368945,
+      "speed_note": "Relative to simulated physical time. Model inference waits were already omitted while simulation was paused; not relative to wall-clock trial duration.",
+      "evidence_review": "Brush use and final workspace retained; three blocks are not collected in the fixed dustpan.",
+      "displayed_speed": "Edited & sped up",
+      "presentation_frame_repair": null,
+      "source": {
+        "task_id": "L3-04",
+        "domain": "sim",
+        "source_filename": "L3-05_第二次_三视角合成.mp4",
+        "source_document": "https://my.feishu.cn/docx/U8AsdPiq2oqRb8xzletcrsXanBh",
+        "source_block": "CrnGdNP6foPJKMxltJIc8Samnpg",
+        "download_quality": "1080p Feishu stream",
+        "source_sha256": "bc4ef48d31b06cf1d614ea186a2ba0535e3c1a4517b49f5509e2072f3d5df549"
+      }
+    }
+  ]
+}
