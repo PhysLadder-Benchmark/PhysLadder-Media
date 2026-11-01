@@ -489,5 +489,38 @@
     "experiments_playback_speed_unchanged": true,
     "unchanged_from": 36
   },
-  "reading_refinement": "Opening title grows from 132 to 146 px; subtitle from 37 to 46 px with higher contrast. After Q1 results the same selected Q2 card expands continuously. The question stays visible for about 3.6 s; Physically Matched and Visually Matched appear sequentially inside it. Hold both before transitioning into the unchanged matching details at 36 s. Time is recovered from the post-bump opening and settled Q1 summary; experimental footage is shifted by 20 frames with no speed change."
+  "reading_refinement": "Opening title grows from 132 to 146 px; subtitle from 37 to 46 px with higher contrast. After Q1 results the same selected Q2 card expands continuously. The question stays visible for about 3.6 s; Physically Matched and Visually Matched appear sequentially inside it. Hold both before transitioning into the unchanged matching details at 36 s. Time is recovered from the post-bump opening and settled Q1 summary; experimental footage is shifted by 20 frames with no speed change.",
+  "current_release": {
+    "date": "2026-11-01",
+    "project": "LLM4Robot-Bench",
+    "series": "LLM4Robot",
+    "title": "LLM4Robot-Bench: How Far Can GPT-6 Astra Go in Robotic Manipulation? A Hierarchical, Matched Sim\u2013Real Benchmark",
+    "website": "https://llm4robot.github.io/bench/",
+    "code": "https://github.com/LLM4Robot/LLM4Robot-Bench",
+    "paper": "https://arxiv.org/abs/2610.34527",
+    "source_media_commit": "06181eddf6ad275e6ed15d84ad30b7c1d4950e35",
+    "source_film_sha256": "a59825d7ff282300fa035e993c44105b3e3f0688ea29984e2404a1f06ad36048",
+    "duration_seconds": 60,
+    "changes": [
+      "Updated project name, formal title, website and code links, and all three end-card QR codes.",
+      "Re-rendered the same approved opening animation and board transitions with the new name.",
+      "Preserved experimental excerpts, their timing, numerical results, original-color affiliation marks and licensed instrumental audio.",
+      "Figure 1 poster refreshed from the compiled renamed report."
+    ],
+    "outputs": {
+      "llm4robot-bench-film.mp4": {
+        "sha256": "73b84f5f94d7f69e2607479de708fd5cccbd09dabaa50c3458f71311a5c725f1",
+        "bytes": 11400824
+      },
+      "llm4robot-bench-preview.mp4": {
+        "sha256": "b64339b096c74bd251cbd2b845f5ab6d0404491c24b786eee443d3d15ccc6f62",
+        "bytes": 2397900
+      },
+      "poster.webp": {
+        "sha256": "ef2d8e2789490529c4c57631f2ef4be68d7ed5b723a742eca26017f7dff51a5c",
+        "bytes": 679398
+      }
+    }
+  },
+  "title": "LLM4Robot-Bench \u2014 60-second project film"
 }

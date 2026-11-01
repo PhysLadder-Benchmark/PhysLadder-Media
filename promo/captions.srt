@@ -1,6 +1,6 @@
 1
 00:00:00,000 --> 00:00:03,963
-PhysLadder: A Hierarchical, Matched Sim–Real Benchmark for Evaluating GPT-6 Astra in Physical Interaction.
+LLM4Robot-Bench: How Far Can GPT-6 Astra Go in Robotic Manipulation? A Hierarchical, Matched Sim–Real Benchmark.
 
 2
 00:00:03,963 --> 00:00:07,333
@@ -48,8 +48,8 @@ Similar Interaction Bottlenecks. Jelly Handling — Contact–Force Coordination
 
 13
 00:00:54,000 --> 00:00:57,500
-For GPT-6 Astra, Matched Simulation Reflects Key Real-World Strengths and Limits. PhysLadder. physladder-benchmark.com
+For GPT-6 Astra, Matched Simulation Reflects Key Real-World Strengths and Limits. LLM4Robot-Bench. llm4robot.github.io/bench/
 
 14
 00:00:57,500 --> 00:01:00,000
-How High Can GPT-6 Astra Climb in Contact-Rich Manipulation? PhysLadder: A Hierarchical, Matched Sim–Real Benchmark for Physical Interaction. Paper: arxiv.org/abs/2610.34527. Website: physladder-benchmark.com. Code: github.com/PhysLadder-Benchmark/PhysLadder.
+LLM4Robot-Bench: How Far Can GPT-6 Astra Go in Robotic Manipulation? A Hierarchical, Matched Sim–Real Benchmark. Paper: arxiv.org/abs/2610.34527. Website: llm4robot.github.io/bench/. Code: github.com/LLM4Robot/LLM4Robot-Bench.
