@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-03",
+  "old_subtitle": "A Hierarchical, Matched Sim\u2013Real Benchmark",
+  "new_subtitle": "A Hierarchical, Paired Sim\u2013Real Benchmark",
+  "source_media_commit": "5755945c6a749ce371aa61db7df00ed96bca5e97",
+  "source_sha256": "73b84f5f94d7f69e2607479de708fd5cccbd09dabaa50c3458f71311a5c725f1",
+  "source_frames": 1800,
+  "duration_seconds": 60,
+  "unchanged_middle_frames_before_encoding": 1618,
+  "opening_text_bounds": [
+    560,
+    293,
+    1361,
+    339
+  ],
+  "end_text_bounds": [
+    571,
+    231,
+    1350,
+    277
+  ],
+  "retained": [
+    "experimental frames and timing",
+    "technical Matched wording",
+    "results",
+    "original audio packets",
+    "logos and QR destinations"
+  ],
+  "outputs": {
+    "llm4robot-bench-film.mp4": {
+      "sha256": "a7d408fc3ce5a1e95962cc74394a79ae90cc8272218bbfab8d276c97c651ddac",
+      "bytes": 11416242
+    },
+    "llm4robot-bench-preview.mp4": {
+      "sha256": "722d5398d1a29e14f6a251ee4a48d95a088c3acaff03faf4e8df3400d6e042ca",
+      "bytes": 2797843
+    }
+  }
+}

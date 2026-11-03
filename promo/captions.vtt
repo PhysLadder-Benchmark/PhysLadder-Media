@@ -1,7 +1,7 @@
 WEBVTT
 
 00:00:00.000 --> 00:00:03.963
-LLM4Robot-Bench: How Far Can GPT-6 Astra Go in Robotic Manipulation? A Hierarchical, Matched Sim–Real Benchmark.
+LLM4Robot-Bench: How Far Can GPT-6 Astra Go in Robotic Manipulation? A Hierarchical, Paired Sim–Real Benchmark.
 
 00:00:03.963 --> 00:00:07.333
 Two research questions. Q1: How Well Does GPT-6 Astra Perform in Contact-Rich Manipulation? Q2: Can Simulation Reliably Reflect Its Real-World Performance?
@@ -40,4 +40,4 @@ Similar Interaction Bottlenecks. Jelly Handling — Contact–Force Coordination
 For GPT-6 Astra, Matched Simulation Reflects Key Real-World Strengths and Limits. LLM4Robot-Bench. llm4robot.github.io/bench/
 
 00:00:57.500 --> 00:01:00.000
-LLM4Robot-Bench: How Far Can GPT-6 Astra Go in Robotic Manipulation? A Hierarchical, Matched Sim–Real Benchmark. Paper: arxiv.org/abs/2610.34527. Website: llm4robot.github.io/bench/. Code: github.com/LLM4Robot/LLM4Robot-Bench.
+LLM4Robot-Bench: How Far Can GPT-6 Astra Go in Robotic Manipulation? A Hierarchical, Paired Sim–Real Benchmark. Paper: arxiv.org/abs/2610.34527. Website: llm4robot.github.io/bench/. Code: github.com/LLM4Robot/LLM4Robot-Bench.
