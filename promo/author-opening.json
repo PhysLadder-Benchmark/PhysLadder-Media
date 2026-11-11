@@ -1,0 +1,197 @@
+{
+  "date": "2026-11-11",
+  "description": "Author-led opening with a separate, explicitly attributed model-introduction page.",
+  "duration_seconds": 60,
+  "frames": 1800,
+  "fps": 30,
+  "source_film_sha256": "a7d408fc3ce5a1e95962cc74394a79ae90cc8272218bbfab8d276c97c651ddac",
+  "source_media_commit": "21b4c5201bce297e7320b45ff26c32fdd769acd4",
+  "timeline": [
+    {
+      "name": "Authors",
+      "output_frames": [
+        0,
+        120
+      ]
+    },
+    {
+      "name": "Model attribution",
+      "output_frames": [
+        120,
+        195
+      ],
+      "animation_source_frames": [
+        0,
+        81
+      ],
+      "animation_linear_scale": 0.64
+    },
+    {
+      "name": "Research questions and results",
+      "output_frames": [
+        195,
+        1725
+      ],
+      "source_frames": [
+        119,
+        1725
+      ],
+      "playback_rate": 1.0496732026143791
+    },
+    {
+      "name": "Final card",
+      "output_frames": [
+        1725,
+        1800
+      ],
+      "source_frames": [
+        1725,
+        1800
+      ]
+    }
+  ],
+  "model_label": "MODEL UNDER EVALUATION; Independent research by the authors on the opening page; This is not an OpenAI-produced video.",
+  "authors": [
+    [
+      "Haibao Yu",
+      "1,2,*,‡"
+    ],
+    [
+      "Jiaqi Meng",
+      "1,*"
+    ],
+    [
+      "Zijian Zhang",
+      "1,3,*"
+    ],
+    [
+      "Bowen Jing",
+      "1"
+    ],
+    [
+      "Lei Yang",
+      "4"
+    ],
+    [
+      "Yue Hu",
+      "5"
+    ],
+    [
+      "Chenchen Ge",
+      "1,6"
+    ],
+    [
+      "Yiming Hou",
+      "1,6"
+    ],
+    [
+      "Chenbo Xin",
+      "1"
+    ],
+    [
+      "Dawen Ye",
+      "1"
+    ],
+    [
+      "Haifang Qin",
+      "1"
+    ],
+    [
+      "Jin Li",
+      "7"
+    ],
+    [
+      "Weitao Zhou",
+      "8"
+    ],
+    [
+      "Jianing Qiu",
+      "9"
+    ],
+    [
+      "Jiankai Sun",
+      "10"
+    ],
+    [
+      "Dandan Zhang",
+      "11"
+    ],
+    [
+      "Zaiqing Nie",
+      "12"
+    ],
+    [
+      "Ping Luo",
+      "2"
+    ],
+    [
+      "Ding Zhao",
+      "13"
+    ]
+  ],
+  "institutions": [
+    [
+      1,
+      "Tuojing Intelligence"
+    ],
+    [
+      2,
+      "The University of Hong Kong"
+    ],
+    [
+      3,
+      "Chinese Academy of Sciences"
+    ],
+    [
+      4,
+      "Nanyang Technological University"
+    ],
+    [
+      5,
+      "University of Michigan, Ann Arbor"
+    ],
+    [
+      6,
+      "Southeast University"
+    ],
+    [
+      7,
+      "Sapient Intelligence"
+    ],
+    [
+      8,
+      "SimpleAI"
+    ],
+    [
+      9,
+      "Mohamed bin Zayed University of Artificial Intelligence"
+    ],
+    [
+      10,
+      "Stanford University"
+    ],
+    [
+      11,
+      "Imperial College London"
+    ],
+    [
+      12,
+      "Tsinghua University"
+    ],
+    [
+      13,
+      "Carnegie Mellon University"
+    ]
+  ],
+  "audio": "Original AAC stream preserved; music only.",
+  "research_content": "Recorded frames, results and end card retained. Research section plays at 1606/1530 of its prior speed.",
+  "previous_provenance": "paired-terminology.json",
+  "files": {
+    "llm4robot-bench-film.mp4": "3ab2e20d626a5c721081b7b2bcc228a704b0208c7be0b46a35426f1c52301218",
+    "llm4robot-bench-preview.mp4": "b73f1d1d94a61df338f87329550e2a07ec6e2931f0c77d8b2be606d9647f1908",
+    "poster.webp": "0991793c8c621f1fe03bf319164de3fc57fc7dcf6adff1225c7f17a33a49c1a8",
+    "captions.srt": "00a88d4fa47915ed26bdbbdc4bab5c547d7cc02db9b20e5399794b0684e20170",
+    "captions.vtt": "6054013b265278ab2161161a23fdf17b6ac76b4b7c53c87e589e0adce22410f0",
+    "transcript.txt": "2e282afa590c0a1f100caa0c6d2eec6e1de69bff1a16566d558ce9015c21489b"
+  }
+}
